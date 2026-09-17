@@ -1,44 +1,36 @@
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The REUSE.toml file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the REUSE.toml in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# Session ID - Session Title
+# BT164 - Accelerate your cloud transition with the SAP Cloud ALM solution
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2026 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2026 session called BT164 - Accelerate your cloud transition with the SAP Cloud ALM solution.  
 
 ## Overview
+<p align="justify">This hands-on session shows how to transition from <b>SAP ERP 6.0</b> to <b>SAP Cloud ERP Private</b> using <b>SAP Business Transformation Center</b> (BTC). It provides a practical introduction to the tools and concepts that support a data-driven transformation journey.</p>
+<p align="justify">During the session, you will evaluate transition options using the <b>Find Transformation Approach</b> app and initialize your first transformation project. These steps form the foundation for executing a <b>Selective Data Transition</b> in later exercises, enabling a <b>smooth</b> and <b>data-driven</b> move to <b>SAP Cloud ERP Private</b>.</p>
 
-This session introduces attendees to...
+![](./resources/images/Screenshot-01.png)<br><br>
 
 ## Requirements
-
-The requirements to follow the exercises in this repository are...
+To complete the exercises in this hands-on session, you need **SAP GUI** and a **web browser** (preferably **Google Chrome**).<br><br>
 
 ## Exercises
+<p align="justify">Building on the concepts introduced above, the following exercises take you through <b>each phase</b> of a <b>data-driven transition</b> using <b>SAP Business Transformation Center</b> — from <b>transformation guidance</b> and <b>scoping</b> to <b>modeling</b> and <b>executing</b>.</p>
+<p align="justify">Step by step, you will analyze your <b>system data</b>, define your <b>transformation approach</b>, and <b>execute the transition</b> to <b>SAP Cloud ERP Private</b> in a lean and controlled way.</p>
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+<p align="justify">Below you find an overview of all exercises included in this hands-on session:</p>
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Scenario Overview](exercises/ex0/)
+- [Exercise 1 - Build the Foundation: Upload UDP & MRC File](exercises/ex1/)
+- [Exercise 2 - Analyze Transition Options: Find Transition Approach](exercises/ex2/)
+- [Exercise 3 - Initialize Project: Create Digital Blueprint](exercises/ex3/)
+- [Exercise 4 - Scope the Blueprint: Select & Reduce Data](exercises/ex4/)
+- [Exercise 5 - Build the Model: Create Transformation Model & Version](exercises/ex5/)
+- [Exercise 6 - Initialize Cycle: Create Cycle & Run Prevalidation](exercises/ex6/)
+- [Exercise 7 - Execute Blueprint: Review Reference Cycle](exercises/ex7/)
 
-  
-**OR** Link to the Tutorial Navigator for example...
+<br>
+ 
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
 
 **IMPORTANT**
 
