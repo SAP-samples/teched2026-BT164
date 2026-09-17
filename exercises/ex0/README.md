@@ -5,7 +5,7 @@
 <p align="justify">In this hands-on session, you will work with the fictional company <b>CONSAREA Inc.</b>, a global manufacturer and distributor of premium pencils. CONSAREA is currently running on <b>SAP ERP 6.0 EhP8</b> and has decided to transition to <b>SAP S/4HANA 2025 FPS01</b> in the <b>Private Cloud Environment</b>.</p> 
 <p align="justify">Like many real-world enterprises, CONSAREA aims to modernize its IT landscape while keeping the transition lean and cost-efficient.</p><br> 
 
-## DT264 at a Glance
+## BT164 at a Glance
 <p align="justify">This hands-on session consists of <b>two main parts</b> that together illustrate a complete, data-driven transition journey from <b>SAP ERP</b> to <b>SAP S/4HANA 2025 FPS01</b> in the <b>Private Cloud Environment</b>.</p>
 
 <p align="justify">In the <b>first part</b>, you will use the <b>Find Transformation Approach</b> app to determine the most suitable transformation scenario for the company. As a result of this assessment, <b>Selective Data Transition</b> will be identified as the best-fit approach for CONSAREA.</p>

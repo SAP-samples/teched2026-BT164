@@ -13,7 +13,7 @@ This exercise consists of the following sub-exercises:
 
 ### Steps:
 Follow these steps to complete the exercise:<br>
-1.  Open [SAP Cloud ALM](https://calm-51338ojk.eu10-004.alm.cloud.sap) and log in with the user **DEMOXX** (replace *XX* with your seat number, for example **DEMO01**).<br>
+1.  Open [SAP Cloud ALM](https://calm-deep-dive-workshop.us10.alm.cloud.sap) and log in with the user **btc-0XX** (replace *XX* with your seat number, for example **btc-001**).<br>
 
     > **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
 
@@ -23,7 +23,7 @@ Follow these steps to complete the exercise:<br>
 3.  In the **Find Transformation Approach** application, choose **Create**.<br><br>
     ![](/exercises/ex2/images/Screenshot-1-02.png)<br>
 
-4.  Enter **APPROACH_DT264_XX** (replace *XX* with your seat number, for example **APPROACH_DT264_01**) as the **Name**.<br><br>
+4.  Enter **APPROACH_BT164_XX** (replace *XX* with your seat number, for example **APPROACH_BT164_01**) as the **Name**.<br><br>
     ![](/exercises/ex2/images/Screenshot-1-03.png)<br>
 
 5.  In the **Products / SKUs** [1] section, select **SAP ERP** as **Source Product** [2] and **SAP Cloud ERP Private (SAP S/4HANA Cloud Private Edition)** as **Target Product** [3].<br><br>
@@ -88,7 +88,7 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex2/images/Screenshot-2-09.png)<br>
 
 11. The **Transformation Project** wizard opens.<br><br>
-    Enter **PROJECT_DT264_XX** (replace *XX* with your seat number, for example **PROJECT_DT264_01**) as the **Name**, and choose **Save**.<br><br>
+    Enter **PROJECT_BT164_XX** (replace *XX* with your seat number, for example **PROJECT_BT164_01**) as the **Name**, and choose **Save**.<br><br>
     ![](/exercises/ex2/images/Screenshot-2-10.png)<br>
 
 12. The details of the **Transformation Project** appear, confirming that your project has been successfully created and is ready for implementation.<br><br>
@@ -128,11 +128,6 @@ Follow these steps to complete the exercise:<br>
 
 9.  **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>
 
-## Optional: Test Your Knowledge
-Run this optional [quiz](https://quiz-app-gk8jvkhz.cfapps.eu10-005.hana.ondemand.com/dt264dsag/quiz/weuhpfpb) to test your understanding. If you prefer to skip it, continue with the next exercise.<br>
-
-> **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
-<br>
 
 ## Summary
 <p align="justify">You have now analyzed your transition options and identified <b>Selective Data Transition</b> as the best-fit scenario for your move to <b>SAP Cloud ERP Private</b>. The automatically created <b>Transformation Project</b> provides the structure for all setup activities and marks the starting point for your guided implementation.</p>

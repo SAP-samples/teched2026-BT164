@@ -18,16 +18,16 @@ Follow these steps to complete the exercise:<br>
 1.  Within your blueprint, select **Transition Readiness**.<br><br>
     ![](/exercises/ex4/images/Screenshot-1-01.png)<br>
 
-    > **💡 TIP**: If you closed the application, reopen [SAP Cloud ALM](https://calm-51338ojk.eu10-004.alm.cloud.sap) and log in with the user **DEMOXX** (replace *XX* with your seat number, for example **DEMO01**). Then navigate to **Transformation** > **Manage Digital Blueprint** and select your blueprint.
+    > **💡 TIP**: If you closed the application, reopen [SAP Cloud ALM](https://calm-deep-dive-workshop.us10.alm.cloud.sap) and log in with the user **btc-0XX** (replace *XX* with your seat number, for example **btc-001**). Then navigate to **Transformation** > **Manage Digital Blueprint** and select your blueprint.
 
 2.  From the list, choose **Select Company Codes**.<br><br>
     ![](/exercises/ex4/images/Screenshot-1-02.png)<br>
 3.  The **Select Company Codes** application opens, with your blueprint already preselected.<br><br>
-    Scroll down to the **Company Codes** table and select all entries except **CONSAREA Services (2000)** [1]. Then choose **Mass Edit** [2].<br><br>
+    Scroll down to the **Company Codes** table and select all entries except **Company 2000, Inc (2000)** [1]. Then choose **Mass Edit** [2].<br><br>
     ![](/exercises/ex4/images/Screenshot-1-03.png)<br>
 4.  For **Scope**, select **Out of Scope**. In **Comment for all objects**, optionally enter a note, for example: **As agreed with the business, I remove these company codes**. Then choose **Save**.<br><br>
     ![](/exercises/ex4/images/Screenshot-1-04.png)<br><br>
-    All company codes except **CONSAREA Services (2000)** are now set to **Out of Scope**.<br>
+    All company codes except **Company 2000, Inc (2000)** are now set to **Out of Scope**.<br>
 5.  To review the impact on the data footprint, go to **Related Apps** &gt; **Digital Blueprint Overview**.<br><br>
     ![](/exercises/ex4/images/Screenshot-1-05.png)<br>
 6.  The **Digital Blueprint Overview** app opens, preselected with your blueprint.<br><br>
@@ -63,7 +63,7 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex4/images/Screenshot-2-07.png)<br><br>
 8.  To review the impact on the data footprint, go to **Related Apps** > **Digital Blueprint Overview**.<br><br>
     ![](/exercises/ex4/images/Screenshot-2-08.png)<br><br>
-9.  The overview shows that, in combination with the **Org Slice**, around **37% of the overall data** has been excluded from the migration scope.<br><br>
+9.  The overview shows that, in combination with the **Org Slice**, a significant amount of the overall data (typically between **30%** and **50%**) has been excluded from the migration scope.<br><br>
     ![](/exercises/ex4/images/Screenshot-2-09.png)<br><br>
 10.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
 11.  **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>
@@ -149,11 +149,6 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex4/images/Screenshot-5-07.png)<br><br>
 10. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
 
-## Optional: Test Your Knowledge
-Run this optional [quiz](https://quiz-app-gk8jvkhz.cfapps.eu10-005.hana.ondemand.com/dt264dsag/quiz/858zpa1e) to test your understanding. If you prefer to skip it, continue with the next exercise.<br>
-
-> **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
-<br>
 
 ## Summary
 <p align="justify">You have now successfully completed the end-to-end scoping of your <b>Digital Blueprint</b>. By defining the organizational scope through company code selection, applying a time-based reduction with the Time Slice pattern, and refining both transformation objects and scanned tables, you have reduced the overall data footprint while keeping all relevant business information intact. After reviewing system messages and confirming the blueprint, you now have a fully scoped and validated data foundation, optimized in size, complexity, and relevance, ready for transformation modeling in the next exercise.</p>

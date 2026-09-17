@@ -6,7 +6,7 @@ Follow these steps to complete the exercise:<br>
 1.  Within the **Create a Digital Blueprint** task summary, choose **Navigate to Manage Digital Blueprints**.<br><br>
     ![](/exercises/ex3/images/Screenshot-01.png)<br>
 
-2.  Enter **BLUEPRINT_DT264_XX** (replace *XX* with your seat number, for example **BLUEPRINT_DT264_01**) as the **Name**, and select the UDP **Analysis** created in the first exercise. Afterwards, choose **Create**.<br><br>
+2.  Enter **BLUEPRINT_BT164_XX** (replace *XX* with your seat number, for example **BLUEPRINT_BT164_01**) as the **Name**, and select the UDP **Analysis** created in the first exercise. Afterwards, choose **Create**.<br><br>
     ![](/exercises/ex3/images/Screenshot-02.png)<br>
 3.  The **Digital Blueprint** has now been successfully created.<br><br>
     ![](/exercises/ex3/images/Screenshot-03.png)<br>
@@ -14,7 +14,7 @@ Follow these steps to complete the exercise:<br>
     In this view, you can review all activities required to prepare your blueprint for data migration. It serves as a checklist that highlights any missing or incomplete steps before you can confirm and activate the blueprint.<br><br>
     In our case, there is one **Warning**, two **Information** messages, and one **Error** indicating that a **System Scan** is required but missing [2]. Let’s resolve this next.<br><br>
     ![](/exercises/ex3/images/Screenshot-04.png)<br>
-5.  Select **Edit**, set **SCAN_SRC_300** as the **System Scan**, and then choose **Save**.<br>
+5.  Select **Edit**, set **REFERENCE_SYS-SCAN** as the **System Scan**, and then choose **Save**.<br>
 
     > **ℹ️ NOTE**: For time-saving purposes, the system scan has already been prepared and is simply consumed in this exercise. For a system of this size (~250 GB), the scan would normally take about 15–20 minutes to complete.
 
@@ -23,7 +23,7 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex3/images/Screenshot-06.png)<br>
 7.  To review the **System Scan** in more detail, scroll to the top of the blueprint and choose **Related Apps** [1] > **Manage System Scans** [2].<br><br>
     ![](/exercises/ex3/images/Screenshot-07.png)<br>
-8.  Select **SCAN_SRC_300** from the list.<br><br>
+8.  Select **REFERENCE_SYS-SCAN** from the list.<br><br>
     ![](/exercises/ex3/images/Screenshot-08.png)<br>
 9.  The **System Scan** overview opens.<br><br>
     Here, you can review information such as the **Software Component Check** (including required versions and SAP Notes), the **Connectivity Status** of the source system, and the current **Scan Status**. If prerequisites are missing or the connection is inactive, the scan cannot be executed until these issues are resolved.<br><br>
@@ -35,11 +35,6 @@ Follow these steps to complete the exercise:<br>
 11. Use the Launchpad back button to return to your Digital Blueprint.<br>
 12. **Congratulations!** You have successfully completed this exercise.<br><br><br>
 
-## Optional: Test Your Knowledge
-Run this optional [quiz](https://quiz-app-gk8jvkhz.cfapps.eu10-005.hana.ondemand.com/dt264dsag/quiz/cv2xtyif) to test your understanding. If you prefer to skip it, continue with the next exercise.<br>
-
-> **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
-<br>
 
 ## Summary
 <p align="justify">You have now created the <b>Digital Blueprint</b> and linked it to the prepared <b>System Scan</b>, establishing a solid foundation for further scoping and data-reduction activities.</p>

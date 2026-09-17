@@ -7,7 +7,7 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex5/images/Screenshot-01.png)<br>
 
 2.  The **Manage Transformation Models** application opens, with your blueprint already preselected.<br>
-3.  Enter **TRF_MDL_DT264_XX** (replace *XX* with your seat number, for example **TRF_MDL_DT264_01**) as **Title** and choose **Create**.<br><br>
+3.  Enter **TRF_MDL_BT164_XX** (replace *XX* with your seat number, for example **TRF_MDL_BT164_01**) as **Title** and choose **Create**.<br><br>
     ![](/exercises/ex5/images/Screenshot-02.png)<br>
 
 4.  After a few seconds, the **Transformation Model** is successfully created.<br>
@@ -66,11 +66,6 @@ Follow these steps to complete the exercise:<br>
 
 18. **Congratulations!** You have successfully completed this exercise.<br><br><br>
 
-## Optional: Test Your Knowledge
-Run this optional [quiz](https://quiz-app-gk8jvkhz.cfapps.eu10-005.hana.ondemand.com/dt264dsag/quiz/fvvpuplv) to test your understanding. If you prefer to skip it, continue with the next exercise.<br>
-
-> **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
-<br>
 
 ## Summary
 <p align="justify">You have now built a transformation model and version that capture all scoped and related objects, preparing the setup for executing the transformation in the next exercise.</p>

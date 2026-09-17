@@ -8,12 +8,12 @@ Follow these steps to complete the exercise:<br>
 
 2.  The **Manage Cycles** application opens with your **Transformation Model** and **Transformation Model Version** preselected.<br>
 3.  Maintain the following details in the **Cycle Attributes** and **System Connection** sections, then choose Create:<br>
-    - **Name**: **CYCLE_DT264_XX** (replace *XX* with your seat number, for example **CYCLE_DT264_01**)
+    - **Name**: **CYCLE_BT164_XX** (replace *XX* with your seat number, for example **CYCLE_BT164_01**)
     - **Type**: **Test**
     - **Retention Date**: for example **Dec 31, 2026**
     - **Use DTV Tool**: **Yes**
-    - **Source System**: **SRC.300**
-    - **Target System**: **TGT.300**
+    - **Source System**: **BDS.300**
+    - **Target System**: **BDT.300**
 
     <br>
 
@@ -40,11 +40,6 @@ Follow these steps to complete the exercise:<br>
 8.  The cycle is now validated and ready for the subsequent transformation phases.<br>
 9.  **Congratulations!** You have successfully completed this exercise.<br><br><br>
 
-## Optional: Test Your Knowledge
-Run this optional [quiz](https://quiz-app-gk8jvkhz.cfapps.eu10-005.hana.ondemand.com/dt264dsag/quiz/04nyj3wp) to test your understanding. If you prefer to skip it, continue with the next exercise.<br>
-
-> **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
-<br>
 
 ## Summary
 <p align="justify">You have now created and validated a cycle based on your transformation model version. This completes the setup phase and prepares the foundation for exploring the following steps in the data transformation workflow.</p>

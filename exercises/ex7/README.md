@@ -22,7 +22,7 @@ Follow these steps to complete the exercise:<br>
 2.  The **Transformation** overview is displayed. Choose **Manage Cycles**.<br><br>
     ![](/exercises/ex7/images/Screenshot-1-02.png)<br>
 
-3.  In the **Manage Cycles** application, enter **CYCLE_REFERENCE_IMPL** in the search field [1] and press **Enter**. Then open the corresponding cycle [2].<br><br>
+3.  In the **Manage Cycles** application, enter **REFERENCE_CYCLE** in the search field [1] and press **Enter**. Then open the corresponding cycle [2].<br><br>
     ![](/exercises/ex7/images/Screenshot-1-03.png)<br>
 
 4.  The **Reference Implementation Cycle** appears. Navigate to **2. Cycle Preparation**.<br><br>
@@ -69,11 +69,6 @@ Follow these steps to complete the exercise:<br>
 8.  Use the **Back** button to return to the cycle overview.<br>
 9.  **Congratulations!** You have successfully completed this sub-exercise.<br><br><br> 
 
-## Optional: Test Your Knowledge
-Run this optional [quiz](https://quiz-app-gk8jvkhz.cfapps.eu10-005.hana.ondemand.com/dt264dsag/quiz/qn76lbfb) to test your understanding. If you prefer to skip it, continue with the next exercise.<br>
-
-> **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
-<br>
 
 ## Summary
 <p align="justify">You have now completed the execution phase of your lean selective data transition. By reviewing the reference cycle, you explored how <b>SAP Business Transformation Center</b> manages the automated transformation flow — from preparing runtime objects to transferring and validating data in the target system.</p>

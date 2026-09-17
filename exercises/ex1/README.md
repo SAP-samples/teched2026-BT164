@@ -4,9 +4,9 @@
 
 ## Steps:
 Follow these steps to complete the exercise:<br>
-1.  Log on to the **SRC** system in SAP GUI, client **300**, using the user **DEMOXX** (replace *XX* with your seat number, for example **DEMO01**), and open transaction **SE38** (ABAP Editor).<br>
+1.  Log on to the **BDS** system in SAP GUI, client **300**, using the user **btc-0XX** (replace *XX* with your seat number, for example **btc-001**), and open transaction **SE38** (ABAP Editor).<br>
 
-    > **ℹ️ NOTE**: If your system policy doesn’t allow connecting to a custom system, you can **download the MRC and UDP files** [here](../../resources/files/) and continue directly with **step 6**. To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
+    > **ℹ️ NOTE**: If your system policy doesn’t allow connecting to a custom system, your instructor will provide them to you in the session and you can continue directly with **step 6**. .
 
     <br>
 
@@ -22,7 +22,7 @@ Follow these steps to complete the exercise:<br>
 5.  Specify a **file path** [1] and choose **Execute** [2] to download the **Maintenance Readiness Check (MRC)** ZIP file to your local disk.<br><br>
     ![](/exercises/ex1/images/Screenshot-04.png)<br>
 
-6.  Switch to [SAP Cloud ALM](https://calm-51338ojk.eu10-004.alm.cloud.sap) and log in with the user **DEMOXX** (replace *XX* with your seat number, for example **DEMO01**).<br>
+6.  Switch to [SAP Cloud ALM](https://calm-deep-dive-workshop.us10.alm.cloud.sap) and log in with the user **btc-0XX** (replace *XX* with your seat number, for example **btc-001**).<br>
 
     > **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
 
@@ -32,7 +32,7 @@ Follow these steps to complete the exercise:<br>
 8.  In the **Manage Analysis File** application, choose **Create**.<br><br>
     ![](/exercises/ex1/images/Screenshot-06.png)<br>
 
-9.  Enter **UDP_DT264_XX** (replace *XX* with your seat number, for example **UDP_DT264_01**) as the **Name**, and keep the default **Analysis Type** (SAP Readiness Check for SAP ERP usage and data profiling).<br><br>
+9.  Enter **UDP_BT164_XX** (replace *XX* with your seat number, for example **UDP_BT164_01**) as the **Name**, and keep the default **Analysis Type** (SAP Readiness Check for SAP ERP usage and data profiling).<br><br>
     ![](/exercises/ex1/images/Screenshot-07.png)<br>
 
 10. Upload the ZIP file you downloaded in Step 3 and choose **Create**.<br><br>
@@ -42,7 +42,7 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex1/images/Screenshot-09.png)<br>
 
 12. Repeat Steps 8 to 11 to upload the **MRC file**:
-    - Enter **MRC_DT264_XX** (replace *XX* with your seat number, for example **MRC_DT264_01**) as the Name.
+    - Enter **MRC_BT164_XX** (replace *XX* with your seat number, for example **MRC_BT164_01**) as the Name.
     - Change the **Analysis Type** to **SAP ERP Maintenance Readiness Check** (MRC).
     - Extract the **MRC ZIP file**, upload the contained **JSON file**, confirm the disclaimer, and choose **Create**.
     - Verify that the file has been successfully uploaded.
@@ -54,11 +54,6 @@ Follow these steps to complete the exercise:<br>
 13. **Congratulations!** You have successfully completed this exercise.<br><br><br>
 
 
-## Optional: Test Your Knowledge
-Run this optional [quiz](https://quiz-app-gk8jvkhz.cfapps.eu10-005.hana.ondemand.com/dt264dsag/quiz/l117e2vu) to test your understanding. If you prefer to skip it, continue with the next exercise.<br>
-
-> **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
-<br>
 
 ## Summary
 <p align="justify">You have now extracted the <b>Usage and Data Profiling</b> (UDP) and <b>Maintenance Readiness Check</b> (MRC) analysis files from the source SAP ERP 6.0 system and uploaded them to the <b>Manage Analysis File</b> app in <b>SAP Cloud ALM</b>. This builds the foundation for analyzing your current system setup and determining the optimal transition path in the next exercise.</p>
