@@ -31,10 +31,14 @@ To complete the exercises in this hands-on session, you need **SAP GUI** and a *
 <br>
  
 
+<span style="color:red; font-size:200%">**REMOVE BEFORE PUBLISHING**</span>
 
+<span style="color:red;">
 **IMPORTANT**
 
 Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+
+</span>
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
