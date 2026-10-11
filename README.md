@@ -21,15 +21,14 @@ To complete the exercises in this hands-on session, you need **SAP GUI** and a *
 
 - [Scenario Overview](exercises/ex0/)
 - [Exercise 1 - Build the Foundation: Upload UDP File](exercises/ex1/)
-- Exercise 2 - Skipped un this Hands-On Session
-- [Exercise 3 - Initialize Project: Create Digital Blueprint](exercises/ex3/)
-- [Exercise 4 - Scope the Blueprint: Select & Reduce Data - Part 1/2](exercises/ex4/)
-- [Exercise 5 - Chart of Accounts Mapping: Manage Value Mappings](exercises/ex5/)
-- [Exercise 6 - Chart of Accounts Mapping: Value Mapping Versions](exercises/ex6/)
-- [Exercise 7 - Scope the Blueprint: Select & Reduce Data - Part 2/2](exercises/ex7/)
-- [Exercise 8 - Build the Model: Create Transformation Model & Version](exercises/ex8/)
-- [Exercise 9 - Initialize Cycle: Create Cycle & Run Prevalidation](exercises/ex9/)
-- [Exercise 10 - Execute Blueprint: Review Reference Cycle](exercises/ex10/)
+- [Exercise 2 - Initialize Project: Create Digital Blueprint](exercises/ex2/)
+- [Exercise 3 - Scope the Blueprint: Select & Reduce Data - Part 1/2](exercises/ex3/)
+- [Exercise 4 - Chart of Accounts Mapping: Manage Value Mappings](exercises/ex4/)
+- [Exercise 5 - Chart of Accounts Mapping: Value Mapping Versions](exercises/ex5/)
+- [Exercise 6 - Scope the Blueprint: Select & Reduce Data - Part 2/2](exercises/ex6/)
+- [Exercise 7 - Build the Model: Create Transformation Model & Version](exercises/ex7/)
+- [Exercise 8 - Initialize Cycle: Create Cycle & Run Prevalidation](exercises/ex8/)
+- [Exercise 9 - Execute Blueprint: Review Reference Cycle](exercises/ex9/)
 
 <br>
  

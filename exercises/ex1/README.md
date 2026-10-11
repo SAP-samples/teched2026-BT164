@@ -48,4 +48,4 @@ Follow these steps to complete the exercise:<br>
 
 <p align="justify">For this hands-on session we will skip the Exercise 2 - Finding the Transition Approach - and will jump right to the next exercise - Exercise 3 - <b>Creating the digitial blueprint</b>.</p>
 
-Continue to - [Exercise 3 - Initialize Project: Create Digital Blueprint](../ex3/README.md)
+Continue to - [Exercise 2 - Initialize Project: Create Digital Blueprint](../ex2/README.md)

@@ -1,40 +1,81 @@
-# Exercise 6 - Chart of Accounts Mapping: Value Mapping Versions
-<p align="justify">In this exercise, you will create and review mapping variant versions.
+# Exercise 6 - Scope the Blueprint: Select & Reduce Data - Part 2/2
+<p align="justify">In this exercise, you will define the data scope of your digital blueprint by excluding irrelevant company codes, limiting historical data, and filtering transformation objects. These scoping activities help to reduce system size and complexity before the transformation model is created.</p>
 
-The Value Mapping Versions app allows you to create and review mapping variant versions based on a mapping variant.
+This exercise consists of the following sub-exercises:
+- [Exercise 6.1 - Activate CoA Solution Pattern](#exercise-61---activate-coa-solution-pattern)
+- [Exercise 6.2 - Select Transformation Objects](#exercise-62---select-transformation-objects)
+- [Exercise 6.3 - Confirm Digital Blueprint](#exercise-63---confirm-digital-blueprint)
 
-The Manage Value Mappings app provides a structured, guided mapping experience that enables you to create a mapping variant, maintain value mappings and validate them to ensure correctness and completeness before the data transformation.</p>
+<br>
 
-> **ℹ️ NOTE**:  A mapping variant version is an immutable snapshot of a mapping variant. It contains all mapping objects, mapping entries, system information, and validation findings as they exist at the time of its creation. A mapping variant version serves as a reliable audit trail of the value mappings process. When there are many mapping variant versions created for a single mapping variant, the latest mapping variant version is always considered Active, and it is automatically picked up by a cycle when the mapping variant on which it is based on is associated with a transformation model.
+## Exercise 6.1 - Activate CoA Solution Pattern
+<p align="justify">In this sub-exercise, you will activate the CoA solution pattern for your digital blueprint.</p>
 
-## Steps:
+### Steps:
 Follow these steps to complete the exercise:<br>
-1.  Enter the **Value Mapping Versions** app.<br><br>
-    ![](/exercises/ex6/images/Screenshot-01.png)
-    <br>
-
-2.  Once the **Value Mapping Versions** application opens, start maintaining a Mapping Variant Version. Enter a **Title** and select the **Mapping Variant** you have just created. The **Systems** information is being fetched automatically. Once done you can hit the **Create** button. <br>
-<br><br>
-    ![](/exercises/ex6/images/Screenshot-02.png)
-    <br>
-
-3.  Once being processed, you see the confirmed and created **Mapping Variant Version**, its **Status** shows **Validated with Warnings** in accordance with the prior created **Mapping Variant**.<br><br>
+1.  Within your blueprint, click on the **Solution Patterns** tab and click on **Chart of Accounts**.<br><br>
+2.  Click on the **Edit** button in the top right hand corner to make your digital blueprint editable. This will allow you to activate the CoA solution pattern.<br><br>
+3.  In the status drop-down, change the value fom **Inactive** to **Active**.<br><br>
+4.  On the bottom right hand side of your screen, click on the button **Apply**. The solution pattern is now active. <br><br>
+5.  Confirm your decision bu clicking on the button **Save**.<br><br>
+6. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
 
 
+## Exercise 6.2 - Select Transformation Objects
+<p align="justify">After successfully applying both the organizational and time-based reductions, you will now refine your blueprint further by narrowing the scope of <b>transformation objects</b>. This step focuses on excluding objects without relevant data, ensuring that only necessary business data is considered for migration.</p>
 
-4.  <i>Excursus</i>: Reviewing a Mapping Variant Version<br><br>
-Below the name of the mapping variant version, you can see a link to the mapping variant that the version is based on, the selected solution pattern, and the validation status.Moreover, you can also view the main details grouped in the following tabs:<br><br>
-**General Information**<br><br>
-In this tab, you can view the descriptive context of the mapping variant version. In the Source System Details and Target System Details subtabs, you can review the connection details of the source and target systems this version applies to.<br><br>
-**G/L Accounts**<br><br>
-In this tab, you can review the G/L account mapping entries captured in this version, including the chart of accounts, the old and new values, whether they were modified, and their validation status, along with the edit metadata for each entry.<br><br>
-**Secondary Cost Elements**<br><br>
-In this tab, you can review the secondary cost element mapping entries captured in this version, including the chart of accounts, the old and new values, whether they were modified, and their validation status, along with the edit metadata for each entry.<br><br>
+### Steps:
+Follow these steps to complete the exercise:<br>
+1.  Within your blueprint, open the **Transition Readiness** tab [1] and choose **Select Transformation Objects** [2].<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-01.png)<br><br>
+2.  In the **Filter**, set **Relevant Data Count** to 0.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-02.png)<br><br>
+3.  Select all transformation objects [1] and choose **Mass Edit** [2].<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-03.png)<br><br>
+4.  For **Scope**, select **Out of Scope**. In **Comment for all objects**, optionally enter a note, for example: **Remove all transformation objects without relevant data**. Finally, choose **Save**.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-04.png)<br><br>
+5.  Remove the filter for **Relevant Data Count** again.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-05.png)<br><br>
+6.  Select all transformation objects [1] and choose **Mass Edit** [2].<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-06.png)<br><br>
+7.  For **Status**, select **Confirmed** and choose **Save**.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-07.png)<br><br>
+8.  The **Status** of all transformation objects has changed from **Open** to **Confirmed**, indicating that all relevant objects are now reviewed and validated.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-08.png)<br><br>
+9.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
+10. The **Set status for transformation objects** warning has disappeared, confirming that the scoping adjustment was successful.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-09.png)<br><br>
+11. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
 
-![](/exercises/ex6/images/Screenshot-03.png)
-    <br>
+
+
+## Exercise 6.3 - Confirm Digital Blueprint
+<p align="justify">After completing the organizational, time, and object scoping, you will now finalize and confirm your digital blueprint. Before confirming, you will review the remaining information and warning messages.</p>
+
+### Steps:
+Follow these steps to complete the exercise:<br>
+1.  Within your blueprint, select **SAP HCM data identified** from the **Transition Readiness** list.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-01.png)<br><br>
+2.  The system indicates that **SAP Human Capital Management** (HCM) data has been identified and must be migrated outside of **SAP Business Transformation Center**.<br><br>
+    This is expected and can be safely ignored for this exercise.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-02.png)<br><br>
+3.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
+4.  Next, select the **SAP S/4HANA Industry Solution-related data detected** warning from the list.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-03.png)<br><br>
+5.  The warning informs you that data related to **SAP Industry Solutions** (except IS-H* if applicable) will be technically transferred from SAP ECC to SAP S/4HANA as-is, without transformation.<br><br>
+    Since these objects are handled outside **SAP Business Transformation Center**, you can also ignore this message.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-04.png)<br><br>
+6.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
+7.  Choose **Confirm Digital Blueprint**.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-05.png)<br><br>
+8.  In the confirmation dialog, review the settings and choose **Confirm** to finalize your blueprint.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-06.png)<br><br>
+9.  The **Status** of the **Digital Blueprint** has changed from **Open** to **Confirmed**, indicating that your blueprint is now locked for scoping and ready for modeling.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-07.png)<br><br>
+10. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
+
 
 ## Summary
-<p align="justify">You have now successfully created a version of the Chart of Accounts Value Mappings. In the next exercise you will use this value mapping version as an input for the transformation model. But before you can do that, you have to head back to the digital blueprint, activate the CoA solution pattern, do one final scoping step and then confirm the digital bluepring so it, too, gets fixed in its current version.</p>
+<p align="justify">You have now successfully completed the end-to-end scoping of your <b>Digital Blueprint</b>. By defining the organizational scope through company code selection, applying a time-based reduction with the Time Slice pattern, and refining both transformation objects and scanned tables, you have reduced the overall data footprint while keeping all relevant business information intact. By activating the Chart of Accounts Solution Pattern you have additionally enabled the harmonization of the Charts of Accounts as specified by the Mapping Model from the previous exercise. After reviewing system messages and confirming the blueprint, you now have a fully scoped and validated data foundation, optimized in size, complexity, and relevance, ready for transformation modeling in the next exercise.</p>
 
-Continue to - [Exercise 7 - Scope the Blueprint: Select & Reduce Data - Part 2/2](../ex7/README.md)
+Continue to - [Exercise 7 - Build the Model: Create Transformation Model & Version](../ex7/README.md)
