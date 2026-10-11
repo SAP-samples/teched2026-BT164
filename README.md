@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2026 session called BT1
 
 ## Overview
 <p align="justify">This hands-on session shows how to transition from <b>SAP ERP 6.0</b> to <b>SAP Cloud ERP Private</b> using <b>SAP Business Transformation Center</b> (BTC). It provides a practical introduction to the tools and concepts that support a data-driven transformation journey.</p>
-<p align="justify">During the session, you will evaluate transition options using the <b>Find Transformation Approach</b> app and initialize your first transformation project. These steps form the foundation for executing a <b>Selective Data Transition</b> in later exercises, enabling a <b>smooth</b> and <b>data-driven</b> move to <b>SAP Cloud ERP Private</b>.</p>
+<p align="justify">During the session, you will execute a <b>Selective Data Transition</b> utilizing three solution patterns: the organizational slice, the time slice, and the chart of accounts mapping, enabling a <b>smooth</b> and <b>data-driven</b> move to <b>SAP Cloud ERP Private</b>.</p>
 
 ![](./resources/images/Screenshot-01.png)<br><br>
 
@@ -14,8 +14,8 @@ This repository contains the material for the SAP TechEd 2026 session called BT1
 To complete the exercises in this hands-on session, you need **SAP GUI** and a **web browser** (preferably **Google Chrome**).<br><br>
 
 ## Exercises
-<p align="justify">Building on the concepts introduced above, the following exercises take you through <b>each phase</b> of a <b>data-driven transition</b> using <b>SAP Business Transformation Center</b> — from <b>transformation guidance</b> and <b>scoping</b> to <b>modeling</b> and <b>executing</b>.</p>
-<p align="justify">Step by step, you will analyze your <b>system data</b>, define your <b>transformation approach</b>, and <b>execute the transition</b> to <b>SAP Cloud ERP Private</b> in a lean and controlled way.</p>
+<p align="justify">Building on the concepts introduced above, the following exercises take you through <b>each phase</b> of a <b>data-driven transition</b> using <b>SAP Business Transformation Center</b> — from <b>scoping</b> via <b>modeling</b> to <b>executing</b>.</p>
+<p align="justify">Step by step, you will analyze your <b>system data</b>, scope and define your transformation project, and <b>execute the transition</b> to <b>SAP Cloud ERP Private</b> in a lean and controlled way.</p>
 
 <p align="justify">Below you find an overview of all exercises included in this hands-on session:</p>
 
@@ -32,15 +32,6 @@ To complete the exercises in this hands-on session, you need **SAP GUI** and a *
 
 <br>
  
-
-<span style="color:red; font-size:200%">**REMOVE BEFORE PUBLISHING**</span>
-
-<span style="color:red;">
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
-
-</span>
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.

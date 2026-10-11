@@ -4,7 +4,7 @@
 This exercise consists of the following sub-exercises:
 - [Exercise 3.1 - Select Company Codes](#exercise-31---select-company-codes)
 - [Exercise 3.2 - Enable Time Slice](#exercise-32---enable-time-slice)
-- [Exercise 3.3 - Select Scanned Tables](#exercise-34---select-scanned-tables)
+- [Exercise 3.3 - Select Scanned Tables](#exercise-33---select-scanned-tables)
 
 <br>
 
@@ -98,6 +98,10 @@ Follow these steps to complete the exercise:<br>
 
 
 ## Summary
-<p align="justify">You have now successfully completed the the first scoping step on your <b>Digital Blueprint</b>. By defining the organizational scope through company code selection, applying a time-based reduction with the Time Slice pattern and refining scanned tables, you have reduced the overall data footprint while keeping all relevant business information intact. In the next two exercises we will now look into the Value Mappings for the Chart of Accounts solution pattern.</p>
+<p align="justify">You have now successfully completed the the first scoping step on your <b>Digital Blueprint</b>. By defining the organizational scope through company code selection, applying a time-based reduction with the Time Slice pattern and refining scanned tables, you have reduced the overall data footprint while keeping all relevant business information intact. <br>
+
+So far, we have not looked at the third solution pattern availale: Chart of Accounts. Keep in mind that this solution pattern can only be activated if the selected company codes (selected in part 1 of this exercise) carry the same Chart of Account. <br>
+
+Before the Chart of Accounts solution pattern can be applied in a meaningful way for a transformation project, the value mappings need to be defined. This is exactly what we will do in the next two exercises.</p>
 
 Continue to - [Exercise 4 - Chart of Accounts Mapping: Manage Value Mappings](../ex4/README.md)

@@ -35,9 +35,6 @@ Follow these steps to complete the exercise:<br>
 9. Verify that the analysis file has been successfully uploaded.<br><br>
     ![](/exercises/ex1/images/Screenshot-09.png)<br>
 
-    <br>
-
-    ![](/exercises/ex1/images/Screenshot-10.png)<br>    
 
 10. **Congratulations!** You have successfully completed this exercise.<br><br><br>
 

@@ -6,11 +6,9 @@
 <p align="justify">Like many real-world enterprises, CONSAREA aims to modernize its IT landscape while keeping the transition lean and cost-efficient.</p><br> 
 
 ## BT164 at a Glance
-<p align="justify">This hands-on session consists of <b>two main parts</b> that together illustrate a complete, data-driven transition journey from <b>SAP ERP</b> to <b>SAP S/4HANA 2025 FPS01</b> in the <b>Private Cloud Environment</b>.</p>
+<p align="justify">This hands-on session consists of <b>several parts</b> that together illustrate a complete, data-driven transition journey from <b>SAP ERP</b> to <b>SAP S/4HANA 2025 FPS01</b> in the <b>Private Cloud Environment</b>.</p>
 
-<p align="justify">In the <b>first part</b>, you will use the <b>Find Transformation Approach</b> app to determine the most suitable transformation scenario for the company. As a result of this assessment, <b>Selective Data Transition</b> will be identified as the best-fit approach for CONSAREA.</p>
-
-<p align="justify">In the <b>second part</b>, you will perform a <b>first sandbox run</b> of a data-driven Selective Data Transition. Building on the pre-assessed and preconfigured environment, you will see how data-driven tools guide each stage of the process — from creating the digital blueprint to <b>scoping</b>, <b>modeling</b>, and <b>executing</b> the transition to <b>SAP Cloud ERP Private</b>.</p>
+<p align="justify">Throughout the exercise, you will perform a <b>first sandbox run</b> of a data-driven Selective Data Transition. Building on the pre-assessed and preconfigured environment, you will see how data-driven tools guide each stage of the process — from creating the digital blueprint to <b>scoping</b>, <b>modeling</b>, and <b>executing</b> the transition to <b>SAP Cloud ERP Private</b>.</p>
 
 <p align="justify">Below you find an overview of all exercises and their corresponding project phases.</p>
 
