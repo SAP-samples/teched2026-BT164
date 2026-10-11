@@ -1,73 +1,66 @@
-# Exercise 5 - Build the Model: Create Transformation Model & Version
-<p align="justify">In this exercise, you will create the transformation model and its version, the technical foundation that defines how your scoped data will be processed during execution in the upcoming cycle. The transformation model translates the scope defined in the digital blueprint into technical definitions and rules that fully describe the transformation initiative.</p><br>
+# Exercise 5 - Chart of Accounts Mapping: Manage Value Mappings
+<p align="justify">In this exercise, you will define and manage the value mappings relevant for the Selective Data Transition from SAP ERP to SAP S/4HANA.
+
+The Manage Value Mappings app provides a structured, guided mapping experience that enables you to create a mapping variant, maintain value mappings and validate them to ensure correctness and completeness before the data transformation.</p>
+
+> **ℹ️ NOTE**:  The app can be used independently before creating a transition cycle to maintain and validate your mappings or as part of the chart of accounts solution pattern, which enables you to reorganize your charts of accounts during the SDT. 
 
 ## Steps:
 Follow these steps to complete the exercise:<br>
-1.  Within your confirmed blueprint, choose **Create Transformation Model**.<br><br>
-    ![](/exercises/ex5/images/Screenshot-01.png)<br>
+1.  Enter the **Manage Value Mapping** app.<br><br>
+    ![](/exercises/ex5/images/Screenshot-01.png)
+    <br>
 
-2.  The **Manage Transformation Models** application opens, with your blueprint already preselected.<br>
-3.  Enter **TRF_MDL_BT164_XX** (replace *XX* with your seat number, for example **TRF_MDL_BT164_01**) as **Title** and choose **Create**.<br><br>
-    ![](/exercises/ex5/images/Screenshot-02.png)<br>
+2.  The **Manage Value Mapping** application opens, start maintaining a Mapping Variant using the **Create** button.<br>
+<br><br>
+    ![](/exercises/ex5/images/Screenshot-02.png)
+    <br>
 
-4.  After a few seconds, the **Transformation Model** is successfully created.<br>
+3.  Enter a **Title**, a brief **Description** and select **BDS_300** as a **Source System**. The Target System can be omitted. Once done hit the **Create** button.<br><br>
 
-    > **ℹ️ NOTE**:  The **Transformation Model Readiness** scan is running in the background and does not require any action at this stage.
-
-    In this view, you can see that the transformation model combines all **transformation objects**, **relations**, **filters**, and **rules** into one consistent technical definition for your transformation initiative.<br><br>
-    In addition to the scoped objects defined in your **Digital Blueprint**, extra elements are automatically added to ensure consistency — including semantically related or logically grouped objects, baseline components required for technical stability, and custom objects identified through the **System Scan**.<br><br>
     ![](/exercises/ex5/images/Screenshot-03.png)<br>
+    
+    **ℹ️ NOTE**:  When no target system is selected, the validation will be done only on the GL acounts and cost elements of the source system (eg checking for completness of the mapping or comparing the attributes of GL accounts to be merged). This feature is especially designed in case mapping definition starts early and no target system is yet existing.<br><br>
 
-5.  Choose **Transformation Objects** [1] and search for **FI Document** [2]. Then scroll down and click the **Name** of the **FI Document** [3] transformation object to navigate into it.<br><br>
+
+4.  After the creating you automatically end up in the general view. Here you get an overview which systems you have maintained, the mapping objects overview and others.<br>
+
+
+    The mapping object overview is still empty. Therefore enter the **Chart of Accounts Selection** tab and select Chart of Account **0010** (which refers to Company Code 2000). 
+    
+    Now you can see that the **GL Accounts** and **Secondary Cost Elements** tabs show the fetched source system information.<br><br>
+    
     ![](/exercises/ex5/images/Screenshot-04.png)<br>
 
-6.  The details of the **FI Document** appear. Choose **Filters**.<br><br>
-    You can see that the transformation filters applied to this object are displayed - there are filters for **Org** and **Time Slice** on several tables and fields.<br><br>
+
+5.  Now switch to the **GL Accounts** tab. To actually maintain a mapping you can hit the **Edit** button. Enter **0000111000** as a **New GL Account** for the following **Old GL Account** values: <br><br>
+**0000111000**<br>
+**0000113010**<br>
+**0000113014**<br><br>
+The system will now mark the changed ones as **Modified** in the **Mapping Status** column. Note that the first account stays as **Original** as it acts as the leading account in this GL account merge example.<br><br>
+
     ![](/exercises/ex5/images/Screenshot-05.png)<br>
 
-7.  Use the **Back** button to return to the transformation model overview.<br><br>
-    Choose **Transformation Filters** tab [1] and then open the **Company Code Filter** [2] with the ID EccCompanyCodeFilter.<br><br>
-    ![](/exercises/ex5/images/Screenshot-06.png)<br>
+      **ℹ️ NOTE**:  The fetched data always provides the full list of all accounts maintained for the selected company codes. GL accounts or secondary cost elements which are not being mapped will keep the Mapping Status **Original**.<br><br> 
 
-8.  The filter details open, showing that the value is set to company code **2000** — as scoped in your blueprint.<br><br>
+6. Once done hit the **Validation** button next to the mappings. The system will run a validation if the merge of the three source accounts can be implemented from a business point of view.<br><br> 
+
+7. Now switch to the **Secondary Cost Elements** tab and again click the **Validation** button. Now all mappings are maintained!<br><br> **❗BE AWARE**: Now the overall status shows **Validated with Errors**. Reason is that one of the GL accounts shows an Error in the mapping validation, which is a showstopper. Warnings are acceptable. <br><br>
+
+    ![](/exercises/ex5/images/Screenshot-06.png)<br><br>
+    
+    **ℹ️ NOTE**: To view the detailed results of the validation click on the details button and expand the page. Read through the detailed analysis<br><br>
+
     ![](/exercises/ex5/images/Screenshot-07.png)<br>
 
-9.  Next, open the **Fiscal Year Greater Than or Equal To Filter** with the ID EccFiscalYearGreaterEquals.<br><br>
-    The filter value is set to **2021**, following the Time Slice definition.<br><br>
-    ![](/exercises/ex5/images/Screenshot-08.png)<br>
+8.  Move back to the mapping tab of the **GL Accounts**, push the **Edit** button and remove the mapping value for GL account **0000113014** which showed **Error** and replace it with the original source GL account value: <br><br>**0000113014**<br><br>Rerun the validation by clicking again the **Validate** button while staying on the **GL Accounts** tab where you just did the mapping correction.<br><br>**✅ OK**: Now the overall status shows **Validated with Warnings**, which unblocks the next step.<br><br>
+   
+9.  <i>Excursus</i>: To see a list of all validations you can click on the **Validation Rules** tab in the overview screen, which provides information on which fields are being considered and what the severeness and impact will be.<br><br>
 
-10. Use the **Back** button to return to the transformation model overview.<br>
-11. Check that the **Source System Scan** is successful. If it is still **In Progress**, use the **Refresh** button.<br>
+    ![](/exercises/ex5/images/Screenshot-08.png)
+ 
 
-    > **ℹ️ NOTE**: The **Source System Scan** may take up to 5–10 minutes to complete. If you prefer not to wait, continue with **Step 14**.
-    
-    During the Source System Scan, a **Connectivity Check** is performed first, followed by an analysis of **customer-specific change documents**. If it detects change documents whose **object classes are not included in the SAP Business Transformation Center content**, corresponding **custom transformation objects** are generated and may require review.<br><br>
-    These checks run sequentially in the background and ensure that all relevant elements are identified and considered before the actual data migration execution.<br><br>
-    ![](/exercises/ex5/images/Screenshot-09.png)<br>
+ ## Summary
+<p align="justify">You have now successfully created the Chart of Accounts Value Mappings. In the next exercise you will create an immutable version of this definition to be used in the transformation model lateron.</p>
 
-12. Choose the **Source System Scan** tab [1] and open **Review Custom Transformation Objects** [2].<br><br>
-    ![](/exercises/ex5/images/Screenshot-10.png)<br>
-
-13. In the **Review Custom Transformation Objects** dialog, deselect **Change Document – HOLIDAYCAL** from the list and choose **Save**.<br><br>
-    This custom change document is not required for the scope of your transformation and can therefore be excluded.<br><br>
-    ![](/exercises/ex5/images/Screenshot-11.png)<br>
-
-14. Then, choose **Create Version**.<br><br>
-    ![](/exercises/ex5/images/Screenshot-12.png)<br>
-
-15. The **Transformation Model Version** application opens, with your transformation model already preselected.<br>
-16. Enter **MDL_V1** as **Title** and choose **Create**.<br><br>
-    ![](/exercises/ex5/images/Screenshot-13.png)<br>
-
-17. After a few seconds, the **Transformation Model Version** is successfully created.<br><br>
-    It represents a **snapshot** of your **transformation model** and serves as the **technical basis** for executing the **data transformation**.<br><br>
-    It contains the same **objects**, **relations**, **filters**, and **rules** as defined in the model, ensuring that each transformation run is performed **consistently** and can be **traced back** to its exact configuration.<br><br>
-    ![](/exercises/ex5/images/Screenshot-14.png)<br>
-
-18. **Congratulations!** You have successfully completed this exercise.<br><br><br>
-
-
-## Summary
-<p align="justify">You have now built a transformation model and version that capture all scoped and related objects, preparing the setup for executing the transformation in the next exercise.</p>
-
-Continue to - [Exercise 6 - Initialize Cycle: Create Cycle & Run Prevalidation](../ex6/README.md)
+Continue to - [xercise 5 - Chart of Accounts Mapping: Manage Value Mappings](../ex5/README.md)

@@ -1,47 +1,40 @@
-# Exercise 6 - Initialize Cycle: Create Cycle & Run Prevalidation
-<p align="justify">In this exercise, you will create a cycle based on your transformation model version. It represents the execution layer of your data transformation, connecting the source and target systems and defining when and how data is processed.</p><br>
+# Exercise 6 - Chart of Accounts Mapping: Value Mapping Versions
+<p align="justify">In this exercise, you will create and review mapping variant versions.
+
+The Value Mapping Versions app allows you to create and review mapping variant versions based on a mapping variant.
+
+The Manage Value Mappings app provides a structured, guided mapping experience that enables you to create a mapping variant, maintain value mappings and validate them to ensure correctness and completeness before the data transformation.</p>
+
+> **ℹ️ NOTE**:  A mapping variant version is an immutable snapshot of a mapping variant. It contains all mapping objects, mapping entries, system information, and validation findings as they exist at the time of its creation. A mapping variant version serves as a reliable audit trail of the value mappings process. When there are many mapping variant versions created for a single mapping variant, the latest mapping variant version is always considered Active, and it is automatically picked up by a cycle when the mapping variant on which it is based on is associated with a transformation model.
 
 ## Steps:
 Follow these steps to complete the exercise:<br>
-1.  Within your model version, choose **Create Cycle**.<br><br>
-    ![](/exercises/ex6/images/Screenshot-01.png)<br>
-
-2.  The **Manage Cycles** application opens with your **Transformation Model** and **Transformation Model Version** preselected.<br>
-3.  Maintain the following details in the **Cycle Attributes** and **System Connection** sections, then choose Create:<br>
-    - **Name**: **CYCLE_BT164_XX** (replace *XX* with your seat number, for example **CYCLE_BT164_01**)
-    - **Type**: **Test**
-    - **Retention Date**: for example **Dec 31, 2026**
-    - **Use DTV Tool**: **Yes**
-    - **Source System**: **BDS.300**
-    - **Target System**: **BDT.300**
-
+1.  Enter the **Value Mapping Versions** app.<br><br>
+    ![](/exercises/ex6/images/Screenshot-01.png)
     <br>
 
-    ![](/exercises/ex6/images/Screenshot-02.png)<br>
+2.  Once the **Value Mapping Versions** application opens, start maintaining a Mapping Variant Version. Enter a **Title** and select the **Mapping Variant** you have just created. The **Systems** information is being fetched automatically. Once done you can hit the **Create** button. <br>
+<br><br>
+    ![](/exercises/ex6/images/Screenshot-02.png)
+    <br>
 
-4.  After a few seconds, the **Cycle** is successfully created and appears in status **New**.<br><br>
-    It serves as the **execution layer** of your transformation model version, connecting the source and target systems. Each cycle follows **four structured phases** that guide the end-to-end data transformation.<br><br>
-    ![](/exercises/ex6/images/Screenshot-03.png)<br>
+3.  Once being processed, you see the confirmed and created **Mapping Variant Version**, its **Status** shows **Validated with Warnings** in accordance with the prior created **Mapping Variant**.<br><br>
 
-5.  Next, begin with the **first phase** of the cycle — **Prevalidation**. Choose **1. Cycle Prevalidation** to open the corresponding section.<br><br>
-    ![](/exercises/ex6/images/Screenshot-04.png)<br>
 
-6.  The **Cycle Prevalidation** section opens.<br><br>
-    The **Prevalidation** phase ensures that your cycle is technically ready to proceed with data preparation and transformation. During this phase, additional **data transformation–specific checks** are performed to verify system consistency and readiness.<br><br>
-    These automated validations analyze both the **source** and **target systems**, identifying potential configuration or connectivity issues early in the process. You can monitor the current **Prevalidation Status** [1] and review detailed results in the **Prevalidation Logs** [2], which summarize all executed checks and their outcomes.<br><br>
-    ![](/exercises/ex6/images/Screenshot-05.png)<br>
-    
-6.  Choose **Run Prevalidation** to start the analysis.<br><br>
-    ![](/exercises/ex6/images/Screenshot-06.png)<br>
 
-7.  The prevalidation process is initiated, and system checks begin.<br><br>
-    After a few minutes, the checks are completed. Use the **Refresh** button on top of the screen to update the status — the individual checks will change to **Done** once successfully finished.<br><br>
-    ![](/exercises/ex6/images/Screenshot-07.png)<br>
-8.  The cycle is now validated and ready for the subsequent transformation phases.<br>
-9.  **Congratulations!** You have successfully completed this exercise.<br><br><br>
+4.  <i>Excursus</i>: Reviewing a Mapping Variant Version<br><br>
+Below the name of the mapping variant version, you can see a link to the mapping variant that the version is based on, the selected solution pattern, and the validation status.Moreover, you can also view the main details grouped in the following tabs:<br><br>
+**General Information**<br><br>
+In this tab, you can view the descriptive context of the mapping variant version. In the Source System Details and Target System Details subtabs, you can review the connection details of the source and target systems this version applies to.<br><br>
+**G/L Accounts**<br><br>
+In this tab, you can review the G/L account mapping entries captured in this version, including the chart of accounts, the old and new values, whether they were modified, and their validation status, along with the edit metadata for each entry.<br><br>
+**Secondary Cost Elements**<br><br>
+In this tab, you can review the secondary cost element mapping entries captured in this version, including the chart of accounts, the old and new values, whether they were modified, and their validation status, along with the edit metadata for each entry.<br><br>
 
+![](/exercises/ex6/images/Screenshot-03.png)
+    <br>
 
 ## Summary
-<p align="justify">You have now created and validated a cycle based on your transformation model version. This completes the setup phase and prepares the foundation for exploring the following steps in the data transformation workflow.</p>
+<p align="justify">You have now successfully created a version of the Chart of Accounts Value Mappings. In the next exercise you will use this value mapping version as an input for the transformation model. But before you can do that, you have to head back to the digital blueprint, activate the CoA solution pattern, do one final scoping step and then confirm the digital bluepring so it, too, gets fixed in its current version.</p>
 
-Continue to - [Exercise 7 - Execute Blueprint: Review Reference Cycle](../ex7/README.md)
+Continue to - [Exercise 7 - Scope the Blueprint: Select & Reduce Data - Part 2/2](../ex7/README.md)

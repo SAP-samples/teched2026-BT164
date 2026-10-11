@@ -1,75 +1,65 @@
-# Exercise 7 - Execute Blueprint: Review Reference Cycle
-<p align="justify">In this exercise, you will explore the <b>execution phases</b> of your cycle, which manage the <b>end-to-end data transformation</b> between the source and target system — from generating runtime objects to completing postprocessing activities. Due to time constraints, these runtime-intensive phases will be reviewed using a pre-executed <b>reference cycle</b>, during which you will also observe how the <b>DTV</b> (Data Transition Validation) project is automatically created and transferred without performing any manual configuration steps.</p>
+# Exercise 7 - Scope the Blueprint: Select & Reduce Data - Part 2/2
+<p align="justify">In this exercise, you will define the data scope of your digital blueprint by excluding irrelevant company codes, limiting historical data, and filtering transformation objects. These scoping activities help to reduce system size and complexity before the transformation model is created.</p>
 
 This exercise consists of the following sub-exercises:
-- [Exercise 7.1 – Review Cycle Preparation](#exercise-71--review-cycle-preparation)
-- [Exercise 7.2 - Review Run & Postprocess Cycles](#exercise-72---review-run--postprocess-cycles)
+- [Exercise 7.1 - Activate CoA Solution Pattern](#exercise-71---activate-coa-solution-pattern)
+- [Exercise 7.2 - Select Transformation Objects](#exercise-72---select-transformation-objects)
+- [Exercise 7.3 - Confirm Digital Blueprint](#exercise-73---confirm-digital-blueprint)
 
 <br>
 
-## Exercise 7.1 – Review Cycle Preparation
-<p align="justify">In this sub-exercise, you will review the <b>Cycle Preparation</b> phase of the cycle. During this phase, the system generates runtime objects for transformation and postprocessing — and automatically creates a DTV project in the source system if the DTV tool was enabled.</p><br><br>
-
-> **⚠️ CAUTION**: In this exercise, you will switch to the **reference implementation** cycle. Make sure to follow the instructions carefully to avoid inconsistencies in the process.
-
-<br>
+## Exercise 7.1 - Activate CoA Solution Pattern
+<p align="justify">In this sub-exercise, you will activate the CoA solution pattern for your digital blueprint.</p>
 
 ### Steps:
 Follow these steps to complete the exercise:<br>
-1.  Within your cycle, open **Manage Cycles** [1] context menu and select the **Transformation** [2] application.<br><br>
-    ![](/exercises/ex7/images/Screenshot-1-01.png)<br>
+1. Bla
+2. Bla
+3. Bla
 
-2.  The **Transformation** overview is displayed. Choose **Manage Cycles**.<br><br>
-    ![](/exercises/ex7/images/Screenshot-1-02.png)<br>
-
-3.  In the **Manage Cycles** application, enter **REFERENCE_CYCLE** in the search field [1] and press **Enter**. Then open the corresponding cycle [2].<br><br>
-    ![](/exercises/ex7/images/Screenshot-1-03.png)<br>
-
-4.  The **Reference Implementation Cycle** appears. Navigate to **2. Cycle Preparation**.<br><br>
-    ![](/exercises/ex7/images/Screenshot-1-04.png)<br>
-
-5.  Choose **Preparation Log** to display the execution details.<br><br>
-    ![](/exercises/ex7/images/Screenshot-1-05.png)<br>
-
-6.  The **Cycle Logs** applications opens. Enter **DTV** into the search field [1] and press **Enter**.<br><br>
-    As you can see, two log entries confirm that the **DTV project** was created and configured successfully [2].<br><br>
-    Through this automation, much of the technical setup is handled by the system, allowing you to focus on configuring only the **DTV reports** relevant for the business data validation.<br><br>
-    ![](/exercises/ex7/images/Screenshot-1-06.png)<br>
-
-7.  **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>
+10. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>
 
 
-## Exercise 7.2 - Review Run & Postprocess Cycles
-<p align="justify">After reviewing the cycle preparation, you will now explore the Run and Postprocess phases of the reference implementation. These phases demonstrate how the data transformation is executed and how the DTV (Data Transition Validation) project is automatically transferred to the target system for subsequent validation.</p>
+## Exercise 7.2 - Select Transformation Objects
+<p align="justify">After successfully applying both the organizational and time-based reductions, you will now refine your blueprint further by narrowing the scope of <b>transformation objects</b>. This step focuses on excluding objects without relevant data, ensuring that only necessary business data is considered for migration.</p>
 
 ### Steps:
 Follow these steps to complete the exercise:<br>
-1.  Within the reference cycle, open the **3. Run Cycles** tab.<br><br>
-    ![](/exercises/ex7/images/Screenshot-2-01.png)<br>
+1.  Within your blueprint, click on the **Solution Patterns** tab and click on **Chart of Accounts**.<br><br>
+2.  Click on the **Edit** button in the top right hand corner to make your digital blueprint editable. This will allow you to activate the CoA solution pattern.<br><br>
+3.  In the status drop-down, change the value fom **Inactive** to **Active**.<br><br>
+4.  On the bottom right hand side of your screen, click on the button **Apply**. The solution pattern is now active. <br><br>
+5.  Confirm your decision bu clicking on the button **Save**.<br><br>
+6. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
 
-2.  Choose **Go to Run Cycles**.<br><br>
-    ![](/exercises/ex7/images/Screenshot-2-02.png)<br>
 
-3.  Enter **FI Document** into the search field [1] and press **Enter**.<br><br>
-    You can see how the data transformation, for example for **financial documents**, was executed during runtime.<br><br>
-    ![](/exercises/ex7/images/Screenshot-2-03.png)<br>
+## Exercise 7.3 - Confirm Digital Blueprint
+<p align="justify">After completing the organizational, time, and object scoping, you will now finalize and confirm your digital blueprint. Before confirming, you will review the remaining information and warning messages.</p>
 
-4.  Use the **Back** button to return to the cycle overview.<br>
-5.  Open the **4. Postprocess Cycles** tab.<br><br>
-    ![](/exercises/ex7/images/Screenshot-2-04.png)<br>
-
-6.  Choose **Go to Postprocess Cycles**.<br><br>
-    In the postprocessing phase, the migrated data is converted to match the release and data structures of the target system using the ABAP upgrade mechanism. This ensures that the transferred data and configuration are fully compatible with SAP S/4HANA.<br><br>
-    ![](/exercises/ex7/images/Screenshot-2-05.png)<br>
-
-7.  Enter **DTV** into the search field [1] and press **Enter**.<br><br>
-    The program **BDTS_DTV_TABLE_TRANSFER** is executed in this phase. It transfers the DTV project and related configuration tables from the source system to the target system and automatically extends the setup to include the new SAP S/4HANA environment.<br><br>
-    ![](/exercises/ex7/images/Screenshot-2-06.png)<br>
-
-8.  Use the **Back** button to return to the cycle overview.<br>
-9.  **Congratulations!** You have successfully completed this sub-exercise.<br><br><br> 
+### Steps:
+Follow these steps to complete the exercise:<br>
+1.  Within your blueprint, select **SAP HCM data identified** from the **Transition Readiness** list.<br><br>
+    ![](/exercises/ex7/images/Screenshot-5-01.png)<br><br>
+2.  The system indicates that **SAP Human Capital Management** (HCM) data has been identified and must be migrated outside of **SAP Business Transformation Center**.<br><br>
+    This is expected and can be safely ignored for this exercise.<br><br>
+    ![](/exercises/ex7/images/Screenshot-5-02.png)<br><br>
+3.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
+4.  Next, select the **SAP S/4HANA Industry Solution-related data detected** warning from the list.<br><br>
+    ![](/exercises/ex7/images/Screenshot-5-03.png)<br><br>
+5.  The warning informs you that data related to **SAP Industry Solutions** (except IS-H* if applicable) will be technically transferred from SAP ECC to SAP S/4HANA as-is, without transformation.<br><br>
+    Since these objects are handled outside **SAP Business Transformation Center**, you can also ignore this message.<br><br>
+    ![](/exercises/ex7/images/Screenshot-5-04.png)<br><br>
+6.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
+7.  Choose **Confirm Digital Blueprint**.<br><br>
+    ![](/exercises/ex7/images/Screenshot-5-05.png)<br><br>
+8.  In the confirmation dialog, review the settings and choose **Confirm** to finalize your blueprint.<br><br>
+    ![](/exercises/ex7/images/Screenshot-5-06.png)<br><br>
+9.  The **Status** of the **Digital Blueprint** has changed from **Open** to **Confirmed**, indicating that your blueprint is now locked for scoping and ready for modeling.<br><br>
+    ![](/exercises/ex7/images/Screenshot-5-07.png)<br><br>
+10. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
 
 
 ## Summary
-<p align="justify">You have now completed the execution phase of your lean selective data transition. By reviewing the reference cycle, you explored how <b>SAP Business Transformation Center</b> manages the automated transformation flow — from preparing runtime objects to transferring and validating data in the target system.</p>
-<p align="justify">🎉 <b>Congratulations</b> — This concludes the hands-on session <b>How to Start Transitioning to SAP Cloud ERP Private</b>, where you successfully completed a guided transition to <b>SAP Cloud ERP Private</b> using <b>SAP Business Transformation Center (BTC)</b>.</p>
+<p align="justify">You have now successfully completed the end-to-end scoping of your <b>Digital Blueprint</b>. By defining the organizational scope through company code selection, applying a time-based reduction with the Time Slice pattern, and refining both transformation objects and scanned tables, you have reduced the overall data footprint while keeping all relevant business information intact. By activating the Chart of Accounts Solution Pattern you have additionally enabled the harmonization of the Charts of Accounts as specified by the Mapping Model from the previous exercise. After reviewing system messages and confirming the blueprint, you now have a fully scoped and validated data foundation, optimized in size, complexity, and relevance, ready for transformation modeling in the next exercise.</p>
+
+Continue to - [Exercise 8 - Build the Model: Create Transformation Model & Version](../ex8/README.md)

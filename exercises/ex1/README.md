@@ -1,6 +1,6 @@
-# Exercise 1 - Build the Foundation: Upload UDP & MRC File
-<p align="justify">In this exercise, you will extract two key analysis files from the source SAP ERP 6.0 system – the <b>Usage and Data Profiling</b> (UDP) file and the <b>Maintenance Readiness Check</b> (MRC) file – and upload them to SAP Cloud ALM.</p>
-<p align="justify">These files serve as the technical and functional input for the <b>Find Transformation Approach</b> application, providing the basis to analyze your current system setup and determine the optimal transition path to SAP Cloud ERP Private.</p><br>
+# Exercise 1 - Build the Foundation: Upload UDP
+<p align="justify">In this exercise, you will extract the key analysis files from the source SAP ERP 6.0 system – the <b>Usage and Data Profiling</b> (UDP) file – and upload it to SAP Cloud ALM.</p>
+<p align="justify">This file serves as the technical and functional input for the <b>Digital Blueprint</b> application.</p><br>
 
 ## Steps:
 Follow these steps to complete the exercise:<br>
@@ -16,47 +16,36 @@ Follow these steps to complete the exercise:<br>
 3.  Choose **Download DRM2 Analysis Data** and save the ZIP file to your local disk.<br><br>
     ![](/exercises/ex1/images/Screenshot-02.png)<br>
 
-4.  Still in transaction **SE38**, run the program **RS_SAVE_LAST_MRC_RES_LOCALLY** [1] and choose **Execute** (F8) [2].<br><br>
-    ![](/exercises/ex1/images/Screenshot-03.png)<br>
-
-5.  Specify a **file path** [1] and choose **Execute** [2] to download the **Maintenance Readiness Check (MRC)** ZIP file to your local disk.<br><br>
-    ![](/exercises/ex1/images/Screenshot-04.png)<br>
-
-6.  Switch to [SAP Cloud ALM](https://calm-deep-dive-workshop.us10.alm.cloud.sap) and log in with the user **btc-0XX** (replace *XX* with your seat number, for example **btc-001**).<br>
+4.  Switch to [SAP Cloud ALM](https://calm-deep-dive-workshop.us10.alm.cloud.sap) and log in with the user **btc-0XX** (replace *XX* with your seat number, for example **btc-001**).<br>
 
     > **💡 TIP**: To open this link in a new tab, **right-click** and choose **Open Link in New Tab**.
 
-7.  Navigate to **Transformation** [1] &gt; **Manage Analysis File** [2].<br><br>
+5.  Navigate to **Transformation** [1] &gt; **Manage Analysis File** [2].<br><br>
     ![](/exercises/ex1/images/Screenshot-05.png)<br>
 
-8.  In the **Manage Analysis File** application, choose **Create**.<br><br>
+6.  In the **Manage Analysis File** application, choose **Create**.<br><br>
     ![](/exercises/ex1/images/Screenshot-06.png)<br>
 
-9.  Enter **UDP_BT164_XX** (replace *XX* with your seat number, for example **UDP_BT164_01**) as the **Name**, and keep the default **Analysis Type** (SAP Readiness Check for SAP ERP usage and data profiling).<br><br>
+7.  Enter **UDP_BT164_XX** (replace *XX* with your seat number, for example **UDP_BT164_01**) as the **Name**, and keep the default **Analysis Type** (SAP Readiness Check for SAP ERP usage and data profiling).<br><br>
     ![](/exercises/ex1/images/Screenshot-07.png)<br>
 
-10. Upload the ZIP file you downloaded in Step 3 and choose **Create**.<br><br>
+8. Upload the ZIP file you downloaded in Step 3 and choose **Create**.<br><br>
     ![](/exercises/ex1/images/Screenshot-08.png)<br>
 
-11. Verify that the analysis file has been successfully uploaded.<br><br>
+9. Verify that the analysis file has been successfully uploaded.<br><br>
     ![](/exercises/ex1/images/Screenshot-09.png)<br>
-
-12. Repeat Steps 8 to 11 to upload the **MRC file**:
-    - Enter **MRC_BT164_XX** (replace *XX* with your seat number, for example **MRC_BT164_01**) as the Name.
-    - Change the **Analysis Type** to **SAP ERP Maintenance Readiness Check** (MRC).
-    - Extract the **MRC ZIP file**, upload the contained **JSON file**, confirm the disclaimer, and choose **Create**.
-    - Verify that the file has been successfully uploaded.
 
     <br>
 
     ![](/exercises/ex1/images/Screenshot-10.png)<br>    
 
-13. **Congratulations!** You have successfully completed this exercise.<br><br><br>
+10. **Congratulations!** You have successfully completed this exercise.<br><br><br>
 
 
 
 ## Summary
-<p align="justify">You have now extracted the <b>Usage and Data Profiling</b> (UDP) and <b>Maintenance Readiness Check</b> (MRC) analysis files from the source SAP ERP 6.0 system and uploaded them to the <b>Manage Analysis File</b> app in <b>SAP Cloud ALM</b>. This builds the foundation for analyzing your current system setup and determining the optimal transition path in the next exercise.</p>
+<p align="justify">You have now extracted the <b>Usage and Data Profiling</b> (UDP) analysis file from the source SAP ERP 6.0 system and uploaded it to the <b>Manage Analysis File</b> app in <b>SAP Cloud ALM</b>. This builds the foundation for analyzing your current system.</p>
 
+<p align="justify">For this hands-on session we will skip the Exercise 2 - Finding the Transition Approach - and will jump right to the next exercise - Exercise 3 - <b>Creating the digitial blueprint</b>.</p>
 
-Continue to - [Exercise 2 - Analyze Transition Options: Find Transition Approach](../ex2/README.md)
+Continue to - [Exercise 3 - Initialize Project: Create Digital Blueprint](../ex3/README.md)
