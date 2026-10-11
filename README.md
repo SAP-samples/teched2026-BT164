@@ -20,13 +20,16 @@ To complete the exercises in this hands-on session, you need **SAP GUI** and a *
 <p align="justify">Below you find an overview of all exercises included in this hands-on session:</p>
 
 - [Scenario Overview](exercises/ex0/)
-- [Exercise 1 - Build the Foundation: Upload UDP & MRC File](exercises/ex1/)
-- [Exercise 2 - Analyze Transition Options: Find Transition Approach](exercises/ex2/)
+- [Exercise 1 - Build the Foundation: Upload UDP File](exercises/ex1/)
+- Exercise 2 - Skipped un this Hands-On Session
 - [Exercise 3 - Initialize Project: Create Digital Blueprint](exercises/ex3/)
-- [Exercise 4 - Scope the Blueprint: Select & Reduce Data](exercises/ex4/)
-- [Exercise 5 - Build the Model: Create Transformation Model & Version](exercises/ex5/)
-- [Exercise 6 - Initialize Cycle: Create Cycle & Run Prevalidation](exercises/ex6/)
-- [Exercise 7 - Execute Blueprint: Review Reference Cycle](exercises/ex7/)
+- [Exercise 4 - Scope the Blueprint: Select & Reduce Data - Part 1/2](exercises/ex4/)
+- [Exercise 5 - Chart of Accounts Mapping: Manage Value Mappings](exercises/ex5/)
+- [Exercise 6 - Chart of Accounts Mapping: Value Mapping Versions](exercises/ex6/)
+- [Exercise 7 - Scope the Blueprint: Select & Reduce Data - Part 2/2](exercises/ex7/)
+- [Exercise 8 - Build the Model: Create Transformation Model & Version](exercises/ex8/)
+- [Exercise 9 - Initialize Cycle: Create Cycle & Run Prevalidation](exercises/ex9/)
+- [Exercise 10 - Execute Blueprint: Review Reference Cycle](exercises/ex10/)
 
 <br>
  

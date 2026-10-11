@@ -13,11 +13,12 @@ This exercise consists of the following sub-exercises:
 
 ### Steps:
 Follow these steps to complete the exercise:<br>
-1. Bla
-2. Bla
-3. Bla
-
-10. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>
+1.  Within your blueprint, click on the **Solution Patterns** tab and click on **Chart of Accounts**.<br><br>
+2.  Click on the **Edit** button in the top right hand corner to make your digital blueprint editable. This will allow you to activate the CoA solution pattern.<br><br>
+3.  In the status drop-down, change the value fom **Inactive** to **Active**.<br><br>
+4.  On the bottom right hand side of your screen, click on the button **Apply**. The solution pattern is now active. <br><br>
+5.  Confirm your decision bu clicking on the button **Save**.<br><br>
+6. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
 
 
 ## Exercise 7.2 - Select Transformation Objects
@@ -25,12 +26,27 @@ Follow these steps to complete the exercise:<br>
 
 ### Steps:
 Follow these steps to complete the exercise:<br>
-1.  Within your blueprint, click on the **Solution Patterns** tab and click on **Chart of Accounts**.<br><br>
-2.  Click on the **Edit** button in the top right hand corner to make your digital blueprint editable. This will allow you to activate the CoA solution pattern.<br><br>
-3.  In the status drop-down, change the value fom **Inactive** to **Active**.<br><br>
-4.  On the bottom right hand side of your screen, click on the button **Apply**. The solution pattern is now active. <br><br>
-5.  Confirm your decision bu clicking on the button **Save**.<br><br>
-6. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
+1.  Within your blueprint, open the **Transition Readiness** tab [1] and choose **Select Transformation Objects** [2].<br><br>
+    ![](/exercises/ex7/images/Screenshot-3-01.png)<br><br>
+2.  In the **Filter**, set **Relevant Data Count** to 0.<br><br>
+    ![](/exercises/ex7/images/Screenshot-3-02.png)<br><br>
+3.  Select all transformation objects [1] and choose **Mass Edit** [2].<br><br>
+    ![](/exercises/ex7/images/Screenshot-3-03.png)<br><br>
+4.  For **Scope**, select **Out of Scope**. In **Comment for all objects**, optionally enter a note, for example: **Remove all transformation objects without relevant data**. Finally, choose **Save**.<br><br>
+    ![](/exercises/ex7/images/Screenshot-3-04.png)<br><br>
+5.  Remove the filter for **Relevant Data Count** again.<br><br>
+    ![](/exercises/ex7/images/Screenshot-3-05.png)<br><br>
+6.  Select all transformation objects [1] and choose **Mass Edit** [2].<br><br>
+    ![](/exercises/ex7/images/Screenshot-3-06.png)<br><br>
+7.  For **Status**, select **Confirmed** and choose **Save**.<br><br>
+    ![](/exercises/ex7/images/Screenshot-3-07.png)<br><br>
+8.  The **Status** of all transformation objects has changed from **Open** to **Confirmed**, indicating that all relevant objects are now reviewed and validated.<br><br>
+    ![](/exercises/ex7/images/Screenshot-3-08.png)<br><br>
+9.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
+10. The **Set status for transformation objects** warning has disappeared, confirming that the scoping adjustment was successful.<br><br>
+    ![](/exercises/ex7/images/Screenshot-3-09.png)<br><br>
+11. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
+
 
 
 ## Exercise 7.3 - Confirm Digital Blueprint

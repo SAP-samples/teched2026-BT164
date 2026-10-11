@@ -1,4 +1,4 @@
-# Exercise 1 - Build the Foundation: Upload UDP
+# Exercise 1 - Build the Foundation: Upload UDP File
 <p align="justify">In this exercise, you will extract the key analysis files from the source SAP ERP 6.0 system – the <b>Usage and Data Profiling</b> (UDP) file – and upload it to SAP Cloud ALM.</p>
 <p align="justify">This file serves as the technical and functional input for the <b>Digital Blueprint</b> application.</p><br>
 
