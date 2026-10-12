@@ -2,14 +2,21 @@
 <p align="justify">In this exercise, you will extract the key analysis files from the source SAP ERP 6.0 system – the <b>Usage and Data Profiling</b> (UDP) file – and upload it to SAP Cloud ALM.</p>
 <p align="justify">This file serves as the technical and functional input for the <b>Digital Blueprint</b> application.</p><br>
 
-## Steps:
-Follow these steps to complete the exercise:<br>
-1.  Log on to the **BDS** system in SAP GUI, client **300**, using the user **btc-0XX** (replace *XX* with your seat number, for example **btc-001**), and open transaction **SE38** (ABAP Editor).<br>
 
     > **ℹ️ NOTE**: In this hands-on session, you will not follow the steps outlined below to log on to the ABAP system, execute the Readiness Check Report, etc. Instead, the analysis file is already provided for you to download from within this repository. You can find it here: [RC_UDP_DMR2_BDS_300.zip](https://github.com/SAP-samples/teched2026-BT164/blob/main/resources/files/RC_UDP_DMR2_BDS_300.zip). <br>
     Please download this file and continue directly with **step 6** in this guide. <br>
-
     You may of course take a look at the next steps which describe what needed to be done in case you had access to an ABAP Source System. <br>
+
+### Download the exercise files
+
+📦 [**Download exercises.zip**](https://github.com/SAP-samples/teched2026-BT164/raw/main/resources/files/RC_UDP_DMR2_BDS_300.zip)
+
+Clicking the link starts the download immediately. Your browser may ask where to save the file, or save it to your *Downloads* folder.
+
+
+## Steps:
+Follow these steps to complete the exercise:<br>
+1.  Log on to the **BDS** system in SAP GUI, client **300**, using the user **btc-0XX** (replace *XX* with your seat number, for example **btc-001**), and open transaction **SE38** (ABAP Editor).<br>
 
 2.  In the **Program** field, enter **RC_UDP_START_DMR2** [1] and choose **Execute** (F8) [2].<br><br>
     ![](/exercises/ex1/images/Screenshot-01.png)<br>
