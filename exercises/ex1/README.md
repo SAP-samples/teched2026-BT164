@@ -1,14 +1,14 @@
 # Exercise 1 - Build the Foundation: Upload UDP File
-<p align="justify">In this exercise, you will extract the key analysis files from the source SAP ERP 6.0 system – the <b>Usage and Data Profiling</b> (UDP) file – and upload it to SAP Cloud ALM.</p>
-<p align="justify">This file serves as the technical and functional input for the <b>Digital Blueprint</b> application.</p><br>
+<p align="justify">In this exercise, you will extract the key analysis file from the source SAP ERP 6.0 system – the <b>Usage and Data Profiling</b> (UDP) file – and upload it to SAP Cloud ALM. This file serves as the technical and functional input for the <b>Digital Blueprint</b> application.</p><br>
 
+**ℹ️ NOTE**
 
-    > **ℹ️ NOTE**: In this hands-on session, you will not follow the steps outlined below to log on to the ABAP system, execute the Readiness Check Report, etc. Instead, the analysis file is already provided for you to download from within this repository. You can find it at the link below. Please download this file and continue directly with **step 6** in this guide. <br>
-    You may of course take a look at the next steps which describe what needed to be done in case you had access to an ABAP Source System. <br>
+In this hands-on session, you will not follow the steps outlined below to log on to the ABAP system, execute the Readiness Check Report, etc... Instead, the analysis file is already provided for you to download from within this repository. You can find it at the link below. Please download this file and continue directly with **step 6** in this guide. <br>
 
-### Download the exercise files
+📦 [**Download RC_UDP_DMR2_BDS_300.zip**](https://github.com/SAP-samples/teched2026-BT164/raw/main/resources/files/RC_UDP_DMR2_BDS_300.zip)
 
-📦 [**Download exercises.zip**](https://github.com/SAP-samples/teched2026-BT164/raw/main/resources/files/RC_UDP_DMR2_BDS_300.zip)
+You may of course take a look at the next steps which describe what needed to be done in case you had access to an ABAP Source System. <br>
+
 
 
 ## Steps:

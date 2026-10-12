@@ -39,4 +39,4 @@ Follow these steps to complete the exercise:<br>
 ## Summary
 <p align="justify">You have now created the <b>Digital Blueprint</b> and linked it to the prepared <b>System Scan</b>, establishing a solid foundation for further scoping and data-reduction activities.</p>
 
-Continue to - [EExercise 3 - Scope the Blueprint: Select & Reduce Data - Part 1/2](../ex3/README.md)
+Continue to - [Exercise 3 - Scope the Blueprint: Select & Reduce Data](../ex3/README.md)
