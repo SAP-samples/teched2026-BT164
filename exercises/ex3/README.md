@@ -124,24 +124,24 @@ Follow these steps to complete the exercise:<br>
 ### Steps:
 Follow these steps to complete the exercise:<br>
 1.  Within your blueprint, open the **Transition Readiness** tab [1] and choose **Select Transformation Objects** [2].<br><br>
-    ![](/exercises/ex6/images/Screenshot-3-01.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-3-01.png)<br><br>
 2.  In the **Filter**, set **Relevant Data Count** to 0.<br><br>
-    ![](/exercises/ex6/images/Screenshot-3-02.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-3-02.png)<br><br>
 3.  Select all transformation objects [1] and choose **Mass Edit** [2].<br><br>
-    ![](/exercises/ex6/images/Screenshot-3-03.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-3-03.png)<br><br>
 4.  For **Scope**, select **Out of Scope**. In **Comment for all objects**, optionally enter a note, for example: **Remove all transformation objects without relevant data**. Finally, choose **Save**.<br><br>
-    ![](/exercises/ex6/images/Screenshot-3-04.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-3-04.png)<br><br>
 5.  Remove the filter for **Relevant Data Count** again.<br><br>
-    ![](/exercises/ex6/images/Screenshot-3-05.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-3-05.png)<br><br>
 6.  Select all transformation objects [1] and choose **Mass Edit** [2].<br><br>
-    ![](/exercises/ex6/images/Screenshot-3-06.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-3-06.png)<br><br>
 7.  For **Status**, select **Confirmed** and choose **Save**.<br><br>
-    ![](/exercises/ex6/images/Screenshot-3-07.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-3-07.png)<br><br>
 8.  The **Status** of all transformation objects has changed from **Open** to **Confirmed**, indicating that all relevant objects are now reviewed and validated.<br><br>
-    ![](/exercises/ex6/images/Screenshot-3-08.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-3-08.png)<br><br>
 9.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
 10. The **Set status for transformation objects** warning has disappeared, confirming that the scoping adjustment was successful.<br><br>
-    ![](/exercises/ex6/images/Screenshot-3-09.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-3-09.png)<br><br>
 11. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
 
 
@@ -152,23 +152,23 @@ Follow these steps to complete the exercise:<br>
 ### Steps:
 Follow these steps to complete the exercise:<br>
 1.  Within your blueprint, select **SAP HCM data identified** from the **Transition Readiness** list.<br><br>
-    ![](/exercises/ex6/images/Screenshot-5-01.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-5-01.png)<br><br>
 2.  The system indicates that **SAP Human Capital Management** (HCM) data has been identified and must be migrated outside of **SAP Business Transformation Center**.<br><br>
     This is expected and can be safely ignored for this exercise.<br><br>
-    ![](/exercises/ex6/images/Screenshot-5-02.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-5-02.png)<br><br>
 3.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
 4.  Next, select the **SAP S/4HANA Industry Solution-related data detected** warning from the list.<br><br>
-    ![](/exercises/ex6/images/Screenshot-5-03.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-5-03.png)<br><br>
 5.  The warning informs you that data related to **SAP Industry Solutions** (except IS-H* if applicable) will be technically transferred from SAP ECC to SAP S/4HANA as-is, without transformation.<br><br>
     Since these objects are handled outside **SAP Business Transformation Center**, you can also ignore this message.<br><br>
-    ![](/exercises/ex6/images/Screenshot-5-04.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-5-04.png)<br><br>
 6.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
 7.  Choose **Confirm Digital Blueprint**.<br><br>
-    ![](/exercises/ex6/images/Screenshot-5-05.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-5-05.png)<br><br>
 8.  In the confirmation dialog, review the settings and choose **Confirm** to finalize your blueprint.<br><br>
-    ![](/exercises/ex6/images/Screenshot-5-06.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-5-06.png)<br><br>
 9.  The **Status** of the **Digital Blueprint** has changed from **Open** to **Confirmed**, indicating that your blueprint is now locked for scoping and ready for modeling.<br><br>
-    ![](/exercises/ex6/images/Screenshot-5-07.png)<br><br>
+    ![](/exercises/ex3/images/Screenshot-5-07.png)<br><br>
 10. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
 
 
