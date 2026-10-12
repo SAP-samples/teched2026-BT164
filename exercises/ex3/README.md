@@ -1,10 +1,16 @@
-# Exercise 3 - Scope the Blueprint: Select & Reduce Data - Part 1/2
+# Exercise 3 - Scope the Blueprint: Select & Reduce Data
 <p align="justify">In this exercise, you will define the data scope of your digital blueprint by excluding irrelevant company codes, limiting historical data, and filtering transformation objects. These scoping activities help to reduce system size and complexity before the transformation model is created.</p>
+
+<p align="justify">Additionnaly, you will activate the new Chart of Accounts solution patterrn, the modeling of which will be performed in the next exercise.</p>
+
 
 This exercise consists of the following sub-exercises:
 - [Exercise 3.1 - Select Company Codes](#exercise-31---select-company-codes)
 - [Exercise 3.2 - Enable Time Slice](#exercise-32---enable-time-slice)
-- [Exercise 3.3 - Select Scanned Tables](#exercise-33---select-scanned-tables)
+- [Exercise 3.3 - Activate CoA Solution Pattern](#exercise-33---activate-coa-solution-pattern)
+- [Exercise 3.4 - Select Scanned Tables](#exercise-34---select-scanned-tables)
+- [Exercise 3.5 - Select Transformation Objects](#exercise-35---select-transformation-objects)
+- [Exercise 3.6 - Confirm Digital Blueprint](#exercise-36---confirm-digital-blueprint)
 
 <br>
 
@@ -66,7 +72,22 @@ Follow these steps to complete the exercise:<br>
 10.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
 11.  **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>
 
-## Exercise 3.3 - Select Scanned Tables
+
+## Exercise 3.3 - Activate CoA Solution Pattern
+<p align="justify">In this sub-exercise, you will activate the CoA solution pattern for your digital blueprint.</p>
+
+### Steps:
+Follow these steps to complete the exercise:<br>
+1.  Within your blueprint, click on the **Solution Patterns** tab and click on **Chart of Accounts**.<br><br>
+2.  Click on the **Edit** button in the top right hand corner to make your digital blueprint editable. This will allow you to activate the CoA solution pattern.<br><br>
+3.  In the status drop-down, change the value fom **Inactive** to **Active**.<br><br>
+4.  On the bottom right hand side of your screen, click on the button **Apply**. The solution pattern is now active. <br><br>
+5.  Confirm your decision bu clicking on the button **Save**.<br><br>
+6. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
+
+
+
+## Exercise 3.4 - Select Scanned Tables
 <p align="justify">After finalizing the transformation object scope, you will now complete the scoping by confirming the scanned tables. These tables were automatically identified by the system scan and typically include customer-specific (Z / Y) or third-party tables.</p>
 
 ### Steps:
@@ -97,11 +118,62 @@ Follow these steps to complete the exercise:<br>
 9.  **Congratulations!** You have successfully completed this sub-exercise.<br><br><br> 
 
 
+## Exercise 3.5 - Select Transformation Objects
+<p align="justify">After successfully applying both the organizational and time-based reductions, you will now refine your blueprint further by narrowing the scope of <b>transformation objects</b>. This step focuses on excluding objects without relevant data, ensuring that only necessary business data is considered for migration.</p>
+
+### Steps:
+Follow these steps to complete the exercise:<br>
+1.  Within your blueprint, open the **Transition Readiness** tab [1] and choose **Select Transformation Objects** [2].<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-01.png)<br><br>
+2.  In the **Filter**, set **Relevant Data Count** to 0.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-02.png)<br><br>
+3.  Select all transformation objects [1] and choose **Mass Edit** [2].<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-03.png)<br><br>
+4.  For **Scope**, select **Out of Scope**. In **Comment for all objects**, optionally enter a note, for example: **Remove all transformation objects without relevant data**. Finally, choose **Save**.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-04.png)<br><br>
+5.  Remove the filter for **Relevant Data Count** again.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-05.png)<br><br>
+6.  Select all transformation objects [1] and choose **Mass Edit** [2].<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-06.png)<br><br>
+7.  For **Status**, select **Confirmed** and choose **Save**.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-07.png)<br><br>
+8.  The **Status** of all transformation objects has changed from **Open** to **Confirmed**, indicating that all relevant objects are now reviewed and validated.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-08.png)<br><br>
+9.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
+10. The **Set status for transformation objects** warning has disappeared, confirming that the scoping adjustment was successful.<br><br>
+    ![](/exercises/ex6/images/Screenshot-3-09.png)<br><br>
+11. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
+
+
+
+## Exercise 3.6 - Confirm Digital Blueprint
+<p align="justify">After completing the organizational, time, and object scoping, you will now finalize and confirm your digital blueprint. Before confirming, you will review the remaining information and warning messages.</p>
+
+### Steps:
+Follow these steps to complete the exercise:<br>
+1.  Within your blueprint, select **SAP HCM data identified** from the **Transition Readiness** list.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-01.png)<br><br>
+2.  The system indicates that **SAP Human Capital Management** (HCM) data has been identified and must be migrated outside of **SAP Business Transformation Center**.<br><br>
+    This is expected and can be safely ignored for this exercise.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-02.png)<br><br>
+3.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
+4.  Next, select the **SAP S/4HANA Industry Solution-related data detected** warning from the list.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-03.png)<br><br>
+5.  The warning informs you that data related to **SAP Industry Solutions** (except IS-H* if applicable) will be technically transferred from SAP ECC to SAP S/4HANA as-is, without transformation.<br><br>
+    Since these objects are handled outside **SAP Business Transformation Center**, you can also ignore this message.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-04.png)<br><br>
+6.  Use the **Back** button in the Launchpad to return to the blueprint.<br><br>
+7.  Choose **Confirm Digital Blueprint**.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-05.png)<br><br>
+8.  In the confirmation dialog, review the settings and choose **Confirm** to finalize your blueprint.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-06.png)<br><br>
+9.  The **Status** of the **Digital Blueprint** has changed from **Open** to **Confirmed**, indicating that your blueprint is now locked for scoping and ready for modeling.<br><br>
+    ![](/exercises/ex6/images/Screenshot-5-07.png)<br><br>
+10. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
+
+
+
 ## Summary
-<p align="justify">You have now successfully completed the the first scoping step on your <b>Digital Blueprint</b>. By defining the organizational scope through company code selection, applying a time-based reduction with the Time Slice pattern and refining scanned tables, you have reduced the overall data footprint while keeping all relevant business information intact. <br>
-
-So far, we have not looked at the third solution pattern availale: Chart of Accounts. Keep in mind that this solution pattern can only be activated if the selected company codes (selected in part 1 of this exercise) carry the same Chart of Account. <br>
-
-Before the Chart of Accounts solution pattern can be applied in a meaningful way for a transformation project, the value mappings need to be defined. This is exactly what we will do in the next two exercises.</p>
+<p align="justify">You have now successfully completed the end-to-end scoping of your <b>Digital Blueprint</b>. By defining the organizational scope through company code selection, applying a time-based reduction with the Time Slice pattern, and refining both transformation objects and scanned tables, you have reduced the overall data footprint while keeping all relevant business information intact. By activating the Chart of Accounts Solution Pattern you have additionally enabled the harmonization of the Charts of Accounts as specified by the Mapping Model from the previous exercise. After reviewing system messages and confirming the blueprint, you now have a fully scoped and validated data foundation, optimized in size, complexity, and relevance, ready for transformation modeling in the next exercise.</p>
 
 Continue to - [Exercise 4 - Chart of Accounts Mapping: Manage Value Mappings](../ex4/README.md)

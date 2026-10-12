@@ -37,4 +37,4 @@ In this tab, you can review the secondary cost element mapping entries captured 
 ## Summary
 <p align="justify">You have now successfully created a version of the Chart of Accounts Value Mappings. In the next exercise you will use this value mapping version as an input for the transformation model. But before you can do that, you have to head back to the digital blueprint, activate the CoA solution pattern, do one final scoping step and then confirm the digital bluepring so it, too, gets fixed in its current version.</p>
 
-Continue to - [Exercise 6 - Scope the Blueprint: Select & Reduce Data - Part 2/2](../ex6/README.md)
+Continue to - [Exercise 6 - Build the Model: Create Transformation Model & Version](../ex6/README.md)
