@@ -9,13 +9,13 @@ The Manage Value Mappings app provides a structured, guided mapping experience t
 
 ## Steps:
 Follow these steps to complete the exercise:<br>
-1.  Enter the **Value Mapping Versions** app.<br><br>
-    ![](/exercises/ex4/images/Screenshot-01.png)
+1.  While still in the **Mapping Variant** application, click on the button **Create Versions**.<br><br>
+    ![](/exercises/ex5/images/Screenshot-01b.png)
     <br>
 
-2.  Once the **Value Mapping Versions** application opens, start maintaining a Mapping Variant Version. Enter a **Title** and select the **Mapping Variant** you have just created. The **Systems** information is being fetched automatically. Once done you can hit the **Create** button. <br>
+2.  Once the **Value Mapping Versions** application opens, start maintaining a Mapping Variant Version. Enter CoA_MVV_BT164_XX (replacing XX with your seat number as before) as **Title** and confirm that the **Mapping Variant** you have just created is listed below. The **Systems** information is being fetched automatically. Select **Create** at the bottom of your screen. <br>
 <br><br>
-    ![](/exercises/ex5/images/Screenshot-02.png)
+    ![](/exercises/ex5/images/Screenshot-02b.png)
     <br>
 
 3.  Once being processed, you see the confirmed and created **Mapping Variant Version**, its **Status** shows **Validated with Warnings** in accordance with the prior created **Mapping Variant**.<br><br>

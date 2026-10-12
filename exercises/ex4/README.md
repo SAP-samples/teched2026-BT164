@@ -16,7 +16,7 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex4/images/Screenshot-02.png)
     <br>
 
-3.  Enter a **Title**, a brief **Description** and select **BDS_300** as a **Source System**. The Target System can be omitted. Once done hit the **Create** button.<br><br>
+3.  Enter CoA_MV_BT164_XX (replace XX with your seat number, for example BLUEPRINT_BT164_01) as the **Title**, if you like, also enter a brief **Description** and select **BDS** as a **Source System**. The Target System can be omitted. Once done click on the **Create** button.<br><br>
 
     ![](/exercises/ex4/images/Screenshot-03.png)<br>
     
@@ -26,35 +26,65 @@ Follow these steps to complete the exercise:<br>
 4.  After the creating you automatically end up in the general view. Here you get an overview which systems you have maintained, the mapping objects overview and others.<br>
 
 
-    The mapping object overview is still empty. Therefore enter the **Chart of Accounts Selection** tab and select Chart of Account **0010** (which refers to Company Code 2000). 
+    The **Mapping Object Overview** is still empty. <br>
+
+    ![](/exercises/ex4/images/Screenshot-04a.png)<br>
     
+    Therefore enter the **Chart of Accounts Selection** tab and select Chart of Account **0010** (which refers to Company Code 2000). <br>
+
+    ![](/exercises/ex4/images/Screenshot-04b.png)<br><br>
+
+    Turn the toggle button to **ON**, then read and confirm the dialog box tha pops up by selecting the option **Select Scope**.<br>
+
     Now you can see that the **GL Accounts** and **Secondary Cost Elements** tabs show the fetched source system information.<br><br>
     
+    ![](/exercises/ex4/images/Screenshot-04c.png)<br>
+
+
+5.  Now switch to the **GL Accounts** tab. <br>
+
     ![](/exercises/ex4/images/Screenshot-04.png)<br>
 
+    To actually maintain a mapping, click on the **Edit** button, enter **0000111000** as a **New GL Account** for the following **Old GL Account** values: <br><br>
+    **0000111000**<br>
+    **0000113010**<br>
+    **0000113014**<br><br>
+    and save your work by clicking the **Save** button at the bottom right hand side of the screen.<br><br>
 
-5.  Now switch to the **GL Accounts** tab. To actually maintain a mapping you can hit the **Edit** button. Enter **0000111000** as a **New GL Account** for the following **Old GL Account** values: <br><br>
-**0000111000**<br>
-**0000113010**<br>
-**0000113014**<br><br>
-The system will now mark the changed ones as **Modified** in the **Mapping Status** column. Note that the first account stays as **Original** as it acts as the leading account in this GL account merge example.<br><br>
+    The system will now mark the changed ones as **Modified** in the **Mapping Status** column. Note that the first account stays as **Original** as it acts as the leading account in this GL account merge example.<br><br>
 
     ![](/exercises/ex4/images/Screenshot-05.png)<br>
 
       **ℹ️ NOTE**:  The fetched data always provides the full list of all accounts maintained for the selected company codes. GL accounts or secondary cost elements which are not being mapped will keep the Mapping Status **Original**.<br><br> 
 
-6. Once done hit the **Validation** button next to the mappings. The system will run a validation if the merge of the three source accounts can be implemented from a business point of view.<br><br> 
+6. Once done select the **Validate** button. The system will run a validation if the merge of the three source accounts can be implemented from a business point of view.<br>
+    
+    ![](/exercises/ex4/images/Screenshot-20.png)<br>
+
+Jetzt kommen Fehler!!!
+
+![](/exercises/ex4/images/Screenshot-21.png)<br>
+
 
 7. Now switch to the **Secondary Cost Elements** tab and again click the **Validation** button. Now all mappings are maintained!<br><br> **❗BE AWARE**: Now the overall status shows **Validated with Errors**. Reason is that one of the GL accounts shows an Error in the mapping validation, which is a showstopper. Warnings are acceptable. <br><br>
 
-    ![](/exercises/ex4/images/Screenshot-06.png)<br><br>
+    ![](/exercises/ex4/images/Screenshot-22.png)<br><br>
     
+    Dann geht's weiter.
+    ![](/exercises/ex4/images/Screenshot-23.png)<br><br>
+
     **ℹ️ NOTE**: To view the detailed results of the validation click on the details button and expand the page. Read through the detailed analysis<br><br>
 
-    ![](/exercises/ex4/images/Screenshot-07.png)<br>
 
-8.  Move back to the mapping tab of the **GL Accounts**, push the **Edit** button and remove the mapping value for GL account **0000113014** which showed **Error** and replace it with the original source GL account value: <br><br>**0000113014**<br><br>Rerun the validation by clicking again the **Validate** button while staying on the **GL Accounts** tab where you just did the mapping correction.<br><br>**✅ OK**: Now the overall status shows **Validated with Warnings**, which unblocks the next step.<br><br>
-   
+8.  Move back to the mapping tab of the **GL Accounts**, click the **Edit** button and remove the mapping value for GL account **0000113014** which showed **Error** and replace it with the original source GL account value: <br><br>**0000113014**<br><br>Rerun the validation by clicking again the **Validate** button while staying on the **GL Accounts** tab where you just did the mapping correction.<br><br>**✅ OK**: Now the overall status shows **Validated with Warnings**, which unblocks the next step.<br><br>
+
+    ![](/exercises/ex4/images/Screenshot-24.png)
+
+blablabla
+
+ ![](/exercises/ex4/images/Screenshot-25.png)
+
+
 9.  <i>Excursus</i>: To see a list of all validations you can click on the **Validation Rules** tab in the overview screen, which provides information on which fields are being considered and what the severeness and impact will be.<br><br>
 
     ![](/exercises/ex4/images/Screenshot-08.png)
