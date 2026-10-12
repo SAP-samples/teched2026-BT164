@@ -1,4 +1,5 @@
 # Exercise 5 - Chart of Accounts Mapping: Value Mapping Versions
+
 <p align="justify">In this exercise, you will create and review mapping variant versions.
 
 The Value Mapping Versions app allows you to create and review mapping variant versions based on a mapping variant.
@@ -8,33 +9,39 @@ The Manage Value Mappings app provides a structured, guided mapping experience t
 > **ℹ️ NOTE**:  A mapping variant version is an immutable snapshot of a mapping variant. It contains all mapping objects, mapping entries, system information, and validation findings as they exist at the time of its creation. A mapping variant version serves as a reliable audit trail of the value mappings process. When there are many mapping variant versions created for a single mapping variant, the latest mapping variant version is always considered Active, and it is automatically picked up by a cycle when the mapping variant on which it is based on is associated with a transformation model.
 
 ## Steps:
-Follow these steps to complete the exercise:<br>
-1.  While still in the **Mapping Variant** application, click on the button **Create Versions**.<br><br>
-    ![](/exercises/ex5/images/Screenshot-01b.png)
-    <br>
 
-2.  Once the **Value Mapping Versions** application opens, start maintaining a Mapping Variant Version. Enter CoA_MVV_BT164_XX (replacing XX with your seat number as before) as **Title** and confirm that the **Mapping Variant** you have just created is listed below. The **Systems** information is being fetched automatically. Select **Create** at the bottom of your screen. <br>
-<br><br>
-    ![](/exercises/ex5/images/Screenshot-02b.png)
-    <br>
+Follow these steps to complete the exercise:
 
-3.  Once being processed, you see the confirmed and created **Mapping Variant Version**, its **Status** shows **Validated with Warnings** in accordance with the prior created **Mapping Variant**.<br><br>
+1. While still in the **Mapping Variant** application, click on the button **Create Versions**.
 
+   ![](/exercises/ex5/images/Screenshot-01b.png)
 
+2. Once the **Value Mapping Versions** application opens, start maintaining a Mapping Variant Version. Enter CoA_MVV_BT164_XX (replacing XX with your seat number as before) as **Title** and confirm that the **Mapping Variant** you have just created is listed below. The **Systems** information is being fetched automatically. Select **Create** at the bottom of your screen.
 
-4.  <i>Excursus</i>: Reviewing a Mapping Variant Version<br><br>
-Below the name of the mapping variant version, you can see a link to the mapping variant that the version is based on, the selected solution pattern, and the validation status.Moreover, you can also view the main details grouped in the following tabs:<br><br>
-**General Information**<br><br>
-In this tab, you can view the descriptive context of the mapping variant version. In the Source System Details and Target System Details subtabs, you can review the connection details of the source and target systems this version applies to.<br><br>
-**G/L Accounts**<br><br>
-In this tab, you can review the G/L account mapping entries captured in this version, including the chart of accounts, the old and new values, whether they were modified, and their validation status, along with the edit metadata for each entry.<br><br>
-**Secondary Cost Elements**<br><br>
-In this tab, you can review the secondary cost element mapping entries captured in this version, including the chart of accounts, the old and new values, whether they were modified, and their validation status, along with the edit metadata for each entry.<br><br>
+   ![](/exercises/ex5/images/Screenshot-02b.png)
 
-![](/exercises/ex5/images/Screenshot-03.png)
-    <br>
+3. Once being processed, you see the confirmed and created **Mapping Variant Version**, its **Status** shows **Validated with Warnings** in accordance with the prior created **Mapping Variant**.
+
+4. *Excursus*: Reviewing a Mapping Variant Version
+
+   Below the name of the mapping variant version, you can see a link to the mapping variant that the version is based on, the selected solution pattern, and the validation status.Moreover, you can also view the main details grouped in the following tabs:
+
+   **General Information**
+
+   In this tab, you can view the descriptive context of the mapping variant version. In the Source System Details and Target System Details subtabs, you can review the connection details of the source and target systems this version applies to.
+
+   **G/L Accounts**
+
+   In this tab, you can review the G/L account mapping entries captured in this version, including the chart of accounts, the old and new values, whether they were modified, and their validation status, along with the edit metadata for each entry.
+
+   **Secondary Cost Elements**
+
+   In this tab, you can review the secondary cost element mapping entries captured in this version, including the chart of accounts, the old and new values, whether they were modified, and their validation status, along with the edit metadata for each entry.
+
+   ![](/exercises/ex5/images/Screenshot-03.png)
 
 ## Summary
+
 <p align="justify">You have now successfully created a version of the Chart of Accounts Value Mappings. In the next exercise you will use this value mapping version as an input for the transformation model. But before you can do that, you have to head back to the digital blueprint, activate the CoA solution pattern, do one final scoping step and then confirm the digital bluepring so it, too, gets fixed in its current version.</p>
 
 Continue to - [Exercise 6 - Build the Model: Create Transformation Model & Version](../ex6/README.md)

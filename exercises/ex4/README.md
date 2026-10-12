@@ -1,96 +1,103 @@
 # Exercise 4 - Chart of Accounts Mapping: Manage Value Mappings
+
 <p align="justify">In this exercise, you will define and manage the value mappings relevant for the Selective Data Transition from SAP ERP to SAP S/4HANA.
 
 The Manage Value Mappings app provides a structured, guided mapping experience that enables you to create a mapping variant, maintain value mappings and validate them to ensure correctness and completeness before the data transformation.</p>
 
-> **ℹ️ NOTE**:  The app can be used independently before creating a transition cycle to maintain and validate your mappings or as part of the chart of accounts solution pattern, which enables you to reorganize your charts of accounts during the SDT. 
+> **ℹ️ NOTE**:  The app can be used independently before creating a transition cycle to maintain and validate your mappings or as part of the chart of accounts solution pattern, which enables you to reorganize your charts of accounts during the SDT.
 
 ## Steps:
-Follow these steps to complete the exercise:<br>
-1.  Enter the **Manage Value Mapping** app.<br><br>
-    ![](/exercises/ex4/images/Screenshot-01.png)
-    <br>
 
-2.  The **Manage Value Mapping** application opens, start maintaining a Mapping Variant using the **Create** button.<br>
-<br><br>
-    ![](/exercises/ex4/images/Screenshot-02.png)
-    <br>
+Follow these steps to complete the exercise:
 
-3.  Enter CoA_MV_BT164_XX (replace XX with your seat number, for example BLUEPRINT_BT164_01) as the **Title**, if you like, also enter a brief **Description** and select **BDS** as a **Source System**. The Target System can be omitted. Once done click on the **Create** button.<br><br>
+1. Enter the **Manage Value Mapping** app.
 
-    ![](/exercises/ex4/images/Screenshot-03.png)<br>
-    
-    **ℹ️ NOTE**:  When no target system is selected, the validation will be done only on the GL acounts and cost elements of the source system (eg checking for completness of the mapping or comparing the attributes of GL accounts to be merged). This feature is especially designed in case mapping definition starts early and no target system is yet existing.<br><br>
+   ![](/exercises/ex4/images/Screenshot-01.png)
 
+2. The **Manage Value Mapping** application opens, start maintaining a Mapping Variant using the **Create** button.
 
-4.  After the creating you automatically end up in the general view. Here you get an overview which systems you have maintained, the mapping objects overview and others.<br>
+   ![](/exercises/ex4/images/Screenshot-02.png)
 
+3. Enter CoA_MV_BT164_XX (replace XX with your seat number, for example BLUEPRINT_BT164_01) as the **Title**, if you like, also enter a brief **Description** and select **BDS** as a **Source System**. The Target System can be omitted. Once done click on the **Create** button.
 
-    The **Mapping Object Overview** is still empty. <br>
+   ![](/exercises/ex4/images/Screenshot-03.png)
 
-    ![](/exercises/ex4/images/Screenshot-04a.png)<br>
-    
-    Therefore enter the **Chart of Accounts Selection** tab and select Chart of Account **0010** (which refers to Company Code 2000). <br>
+   > **ℹ️ NOTE**:  When no target system is selected, the validation will be done only on the GL acounts and cost elements of the source system (eg checking for completness of the mapping or comparing the attributes of GL accounts to be merged). This feature is especially designed in case mapping definition starts early and no target system is yet existing.
 
-    ![](/exercises/ex4/images/Screenshot-04b.png)<br><br>
+4. After the creating you automatically end up in the general view. Here you get an overview which systems you have maintained, the mapping objects overview and others.
 
-    Turn the toggle button to **ON**, then read and confirm the dialog box tha pops up by selecting the option **Select Scope**.<br>
+   The **Mapping Object Overview** is still empty.
 
-    Now you can see that the **GL Accounts** and **Secondary Cost Elements** tabs show the fetched source system information.<br><br>
-    
-    ![](/exercises/ex4/images/Screenshot-04c.png)<br>
+   ![](/exercises/ex4/images/Screenshot-04a.png)
 
+   Therefore enter the **Chart of Accounts Selection** tab and select Chart of Account **0010** (which refers to Company Code 2000).
 
-5.  Now switch to the **GL Accounts** tab. <br>
+   ![](/exercises/ex4/images/Screenshot-04b.png)
 
-    ![](/exercises/ex4/images/Screenshot-04.png)<br>
+   Turn the toggle button to **ON**, then read and confirm the dialog box tha pops up by selecting the option **Select Scope**.
 
-    To actually maintain a mapping, click on the **Edit** button, enter **0000111000** as a **New GL Account** for the following **Old GL Account** values: <br><br>
-    **0000111000**<br>
-    **0000113010**<br>
-    **0000113014**<br><br>
-    and save your work by clicking the **Save** button at the bottom right hand side of the screen.<br><br>
+   Now you can see that the **GL Accounts** and **Secondary Cost Elements** tabs show the fetched source system information.
 
-    The system will now mark the changed ones as **Modified** in the **Mapping Status** column. Note that the first account stays as **Original** as it acts as the leading account in this GL account merge example.<br><br>
+   ![](/exercises/ex4/images/Screenshot-04c.png)
 
-    ![](/exercises/ex4/images/Screenshot-05.png)<br>
+5. Now switch to the **GL Accounts** tab.
 
-      **ℹ️ NOTE**:  The fetched data always provides the full list of all accounts maintained for the selected company codes. GL accounts or secondary cost elements which are not being mapped will keep the Mapping Status **Original**.<br><br> 
+   ![](/exercises/ex4/images/Screenshot-04.png)
 
-6. Once done select the **Validate** button. The system will run a validation if the merge of the three source accounts can be implemented from a business point of view.<br>
-    
-    ![](/exercises/ex4/images/Screenshot-20.png)<br>
+   To actually maintain a mapping, click on the **Edit** button, enter **0000111000** as a **New GL Account** for the following **Old GL Account** values:
 
-Jetzt kommen Fehler!!!
+   - **0000111000**
+   - **0000113010**
+   - **0000113014**
 
-![](/exercises/ex4/images/Screenshot-21.png)<br>
+   and save your work by clicking the **Save** button at the bottom right hand side of the screen.
 
+   The system will now mark the changed ones as **Modified** in the **Mapping Status** column. Note that the first account stays as **Original** as it acts as the leading account in this GL account merge example.
 
-7. Now switch to the **Secondary Cost Elements** tab and again click the **Validation** button. Now all mappings are maintained!<br><br> **❗BE AWARE**: Now the overall status shows **Validated with Errors**. Reason is that one of the GL accounts shows an Error in the mapping validation, which is a showstopper. Warnings are acceptable. <br><br>
+   ![](/exercises/ex4/images/Screenshot-05.png)
 
-    ![](/exercises/ex4/images/Screenshot-22.png)<br><br>
-    
-    Dann geht's weiter.
-    ![](/exercises/ex4/images/Screenshot-23.png)<br><br>
+   > **ℹ️ NOTE**:  The fetched data always provides the full list of all accounts maintained for the selected company codes. GL accounts or secondary cost elements which are not being mapped will keep the Mapping Status **Original**.
 
-    **ℹ️ NOTE**: To view the detailed results of the validation click on the details button and expand the page. Read through the detailed analysis<br><br>
+6. Once done select the **Validate** button. The system will run a validation if the merge of the three source accounts can be implemented from a business point of view.
 
+   ![](/exercises/ex4/images/Screenshot-20.png)
 
-8.  Move back to the mapping tab of the **GL Accounts**, click the **Edit** button and remove the mapping value for GL account **0000113014** which showed **Error** and replace it with the original source GL account value: <br><br>**0000113014**<br><br>Rerun the validation by clicking again the **Validate** button while staying on the **GL Accounts** tab where you just did the mapping correction.<br><br>**✅ OK**: Now the overall status shows **Validated with Warnings**, which unblocks the next step.<br><br>
+   Jetzt kommen Fehler!!!
 
-    ![](/exercises/ex4/images/Screenshot-24.png)
+   ![](/exercises/ex4/images/Screenshot-21.png)
 
-blablabla
+7. Now switch to the **Secondary Cost Elements** tab and again click the **Validation** button. Now all mappings are maintained!
 
- ![](/exercises/ex4/images/Screenshot-25.png)
+   > **❗BE AWARE**: Now the overall status shows **Validated with Errors**. Reason is that one of the GL accounts shows an Error in the mapping validation, which is a showstopper. Warnings are acceptable.
 
+   ![](/exercises/ex4/images/Screenshot-22.png)
 
-9.  <i>Excursus</i>: To see a list of all validations you can click on the **Validation Rules** tab in the overview screen, which provides information on which fields are being considered and what the severeness and impact will be.<br><br>
+   Dann geht's weiter.
 
-    ![](/exercises/ex4/images/Screenshot-08.png)
- 
+   ![](/exercises/ex4/images/Screenshot-23.png)
 
- ## Summary
+   > **ℹ️ NOTE**: To view the detailed results of the validation click on the details button and expand the page. Read through the detailed analysis
+
+8. Move back to the mapping tab of the **GL Accounts**, click the **Edit** button and remove the mapping value for GL account **0000113014** which showed **Error** and replace it with the original source GL account value:
+
+   **0000113014**
+
+   Rerun the validation by clicking again the **Validate** button while staying on the **GL Accounts** tab where you just did the mapping correction.
+
+   > **✅ OK**: Now the overall status shows **Validated with Warnings**, which unblocks the next step.
+
+   ![](/exercises/ex4/images/Screenshot-24.png)
+
+   blablabla
+
+   ![](/exercises/ex4/images/Screenshot-25.png)
+
+9. *Excursus*: To see a list of all validations you can click on the **Validation Rules** tab in the overview screen, which provides information on which fields are being considered and what the severeness and impact will be.
+
+   ![](/exercises/ex4/images/Screenshot-08.png)
+
+## Summary
+
 <p align="justify">You have now successfully created the Chart of Accounts Value Mappings. In the next exercise you will create an immutable version of this definition to be used in the transformation model lateron.</p>
 
 Continue to - [Exercise 5 - Chart of Accounts Mapping: Manage Value Mappings](../ex5/README.md)
