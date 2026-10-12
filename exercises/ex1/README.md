@@ -3,11 +3,11 @@
 
 **ℹ️ NOTE**
 
-In this hands-on session, you will not follow the steps outlined below to log on to the ABAP system, execute the Readiness Check Report, etc... Instead, the analysis file is already provided for you to download from within this repository. You can find it at the link below. Please download this file and continue directly with **step 6** in this guide. <br>
+In this hands-on session, you will actually **not** follow the steps outlined below to log on to the ABAP system, execute the Readiness Check Report, etc... Instead, the analysis file is already provided for you to download from within this repository. You can find it at the link below. Please download this file and continue directly with **step 6** in this guide. <br>
 
 📦 [**Download RC_UDP_DMR2_BDS_300.zip**](https://github.com/SAP-samples/teched2026-BT164/raw/main/resources/files/RC_UDP_DMR2_BDS_300.zip)
 
-You may of course take a look at the next steps which describe what needed to be done in case you had access to an ABAP Source System. <br>
+You may of course take a look at the next steps 1 - 5, which describe what needs to be done in case you have access to an ECC ABAP Source System. <br>
 
 
 

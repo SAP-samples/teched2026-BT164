@@ -79,9 +79,13 @@ Follow these steps to complete the exercise:<br>
 ### Steps:
 Follow these steps to complete the exercise:<br>
 1.  Within your blueprint, click on the **Solution Patterns** tab and click on **Chart of Accounts**.<br><br>
+    ![](/exercises/ex3/images/Screenshot-6-01.png)<br><br>
 2.  Click on the **Edit** button in the top right hand corner to make your digital blueprint editable. This will allow you to activate the CoA solution pattern.<br><br>
+    ![](/exercises/ex3/images/Screenshot-6-02.png)<br><br>
 3.  In the status drop-down, change the value fom **Inactive** to **Active**.<br><br>
+    ![](/exercises/ex3/images/Screenshot-6-03.png)<br><br>
 4.  On the bottom right hand side of your screen, click on the button **Apply**. The solution pattern is now active. <br><br>
+    ![](/exercises/ex3/images/Screenshot-6-03.png)<br><br>
 5.  Confirm your decision bu clicking on the button **Save**.<br><br>
 6. **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>  
 
