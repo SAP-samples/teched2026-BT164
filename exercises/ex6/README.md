@@ -66,7 +66,7 @@ Follow these steps to complete the exercise:<br>
 
 16. The final step in this exercise is to create the immutable **Transformation Model Version**. Please note that a Model Version can only be created after the Transformation Model Readiness check completed successfully. <br><br>
     ![](/exercises/ex6/images/Screenshot-09.png)<br><br>
-    If the status is still showing **In Progress**, continue with Step xx, otherwise you can continue with this step.<br>
+    If the status is still showing **In Progress**, continue with Step 20, otherwise you can continue with this step.<br>
     On the top of the screen, click the button **Create Version**<br><br>
     ![](/exercises/ex6/images/Screenshot-12.png)<br>
         
