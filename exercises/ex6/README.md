@@ -64,9 +64,12 @@ Follow these steps to complete the exercise:<br>
     This custom change document is not required for the scope of your transformation and can therefore be excluded.<br><br>
     ![](/exercises/ex6/images/Screenshot-11.png)<br>
 
-16. Then, choose **Create Version**.<br><br>
+16. The final step in this exercise is to create the immutable **Transformation Model Version**. Please note that a Model Version can only be created after the Transformation Model Readiness check completed successfully. <br><br>
+    ![](/exercises/ex6/images/Screenshot-09.png)<br><br>
+    If the status is still showing **In Progress**, continue with Step xx, otherwise you can continue with this step.<br>
+    On the top of the screen, click the button **Create Version**<br><br>
     ![](/exercises/ex6/images/Screenshot-12.png)<br>
-
+        
 17. The **Transformation Model Version** application opens, with your transformation model already preselected.<br>
 18. Enter **MDL_V1** as **Title** and choose **Create**.<br><br>
     ![](/exercises/ex6/images/Screenshot-13.png)<br>
@@ -76,7 +79,16 @@ Follow these steps to complete the exercise:<br>
     It contains the same **objects**, **relations**, **filters**, and **rules** as defined in the model, ensuring that each transformation run is performed **consistently** and can be **traced back** to its exact configuration.<br><br>
     ![](/exercises/ex6/images/Screenshot-14.png)<br>
 
-20. **Congratulations!** You have successfully completed this exercise.<br><br><br>
+20. This is an alternative route to complete the exercise in case the model    creation took too long. From the menu at the top of the screen, click on the arrow to open the dropdown menu and select "Manage Transformation Models":<br><br>
+   ![](/exercises/ex6/images/Screenshot-20.png)<br><br>
+   Then, in the search field, enter **REFERENCE_TRAFO**, click on the magnifying lense, and select **REFERENCE_TRAFO-Model** from the list below: <br><br>
+   ![](/exercises/ex6/images/Screenshot-21.png)<br><br>
+   The Transformation Model application opens. Open the tab **Transformation Model Versions** and select the verion titled **REFERENCE_TRAFO-MODEL-VERSION**.<br><br>
+   ![](/exercises/ex6/images/Screenshot-22.png)<br><br>
+   You have now caught up with the process flow in this exercise and can contiune to the next exercise, creating the cycle from the model version.<br><br>
+
+21. **Congratulations!** You have successfully completed this exercise.<br><br>
+
 
 
 ## Summary
