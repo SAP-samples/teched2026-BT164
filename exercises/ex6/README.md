@@ -66,7 +66,7 @@ Follow these steps to complete the exercise:<br>
 
 16. The final step in this exercise is to create the immutable **Transformation Model Version**. Please note that a Model Version can only be created after the Transformation Model Readiness check completed successfully. <br><br>
     ![](/exercises/ex6/images/Screenshot-09.png)<br><br>
-    If the status is still showing **In Progress**, continue with Step 20, otherwise you can continue with this step.<br><br><br>
+    If the status is still showing **In Progress**, continue with **Step 20**, otherwise you can continue with this step.<br><br><br>
     On the top of the screen, click the button **Create Version**<br><br>
     ![](/exercises/ex6/images/Screenshot-12.png)<br>
         
@@ -77,7 +77,8 @@ Follow these steps to complete the exercise:<br>
 19. After a few seconds, the **Transformation Model Version** is successfully created.<br><br>
     It represents a **snapshot** of your **transformation model** and serves as the **technical basis** for executing the **data transformation**.<br><br>
     It contains the same **objects**, **relations**, **filters**, and **rules** as defined in the model, ensuring that each transformation run is performed **consistently** and can be **traced back** to its exact configuration.<br><br>
-    ![](/exercises/ex6/images/Screenshot-14.png)<br>
+    ![](/exercises/ex6/images/Screenshot-14.png)<br><br>
+    This concludes the exercise and you can continue with the next ecercise.<br><br>
 
 20. This is an alternative route to complete the exercise in case the model    creation took too long. From the menu at the top of the screen, click on the arrow to open the dropdown menu and select "Manage Transformation Models":<br><br>
    ![](/exercises/ex6/images/Screenshot-20.png)<br><br>
