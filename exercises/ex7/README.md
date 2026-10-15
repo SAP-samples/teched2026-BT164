@@ -10,14 +10,19 @@ Follow these steps to complete the exercise:<br>
 3.  Maintain the following details in the **Cycle Attributes** and **System Connection** sections, then choose Create:<br>
     - **Name**: **CYCLE_BT164_XX** (replace *XX* with your seat number, for example **CYCLE_BT164_01**)
     - **Type**: **Test**
-    - **Retention Date**: for example **Dec 31, 2026**
-    - **Use DTV Tool**: **Yes**
-    - **Source System**: **BDS.300**
-    - **Target System**: **BDT.300**
+    - **Retention Date**: for example **Nov 30, 2026**
+    - **Run Data Transition Validation Tool (DTV)**: **No**
+    - **Transfer Generic Object Services (GOS)**: **No**
+    - **Source System**: **BDS_300**
+    - **Target System**: **BDT_300**
 
     <br>
 
     ![](/exercises/ex7/images/Screenshot-02.png)<br>
+
+    Confirm the warning message that appears about the Systems regarding the Mapping Version with OK.
+
+    ![](/exercises/ex7/images/Screenshot-02b.png)<br>
 
 4.  After a few seconds, the **Cycle** is successfully created and appears in status **New**.<br><br>
     It serves as the **execution layer** of your transformation model version, connecting the source and target systems. Each cycle follows **four structured phases** that guide the end-to-end data transformation.<br><br>

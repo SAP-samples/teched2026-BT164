@@ -15,7 +15,7 @@ Follow these steps to complete the exercise:<br>
 2.  The **Manage Transformation Models** application opens. Select **Create** to create a new transformation model. <br>
     ![](/exercises/ex6/images/Screenshot-01c.png)<br><br>
 
-3.  Enter **TRF_MDL_BT164_XX** (replace *XX* with your seat number, for example **TRF_MDL_BT164_01**) as **Title**. In the second input field labeled "Digital Blueprint" select the digital blueprint you created in exercise 3 (e.g. **BLUEPRINT_BT164_XX**). Lastly, in the field labeled "Mapping Variant" enter the Chart of Accounts Model Mapping Variant (e.g. **CoA_MVV_BT164_XX**) you created in the previous exerecise. <br><br>
+3.  Enter **TRF_MDL_BT164_XX** (replace *XX* with your seat number, for example **TRF_MDL_BT164_01**) as **Title**. In the second input field labeled "Digital Blueprint" select the digital blueprint you created in exercise 3 (e.g. **BLUEPRINT_BT164_XX**). Lastly, in the field labeled "Mapping Variant" enter the Chart of Accounts Model Mapping Variant (e.g. **CoA_MV_BT164_XX**) you created in the previous exerecise. <br><br>
     ![](/exercises/ex6/images/Screenshot-02b.png)<br>
 
 4.  Leave the toggle **Client Mapping** untouched.

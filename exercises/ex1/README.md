@@ -34,7 +34,7 @@ Follow these steps to complete the exercise:<br>
 7.  Enter **UDP_BT164_XX** (replace *XX* with your seat number, for example **UDP_BT164_01**) as the **Name**, and keep the default **Analysis Type** (SAP Readiness Check for SAP ERP usage and data profiling).<br><br>
     ![](/exercises/ex1/images/Screenshot-07.png)<br>
 
-8. Upload the ZIP file you downloaded in Step 3 and choose **Create**.<br><br>
+8. Upload the ZIP file you downloaded in Step 3 (or from this repo) and choose **Create**.<br><br>
     ![](/exercises/ex1/images/Screenshot-08.png)<br>
 
 9. Verify that the analysis file has been successfully uploaded.<br><br>

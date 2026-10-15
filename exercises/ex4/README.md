@@ -58,41 +58,45 @@ Follow these steps to complete the exercise:
 
    > **ℹ️ NOTE**:  The fetched data always provides the full list of all accounts maintained for the selected company codes. GL accounts or secondary cost elements which are not being mapped will keep the Mapping Status **Original**.
 
-6. Once done select the **Validate** button. The system will run a validation if the merge of the three source accounts can be implemented from a business point of view.
+6. Once this is done the mappings have to be validated. This needs to be done for both mapping objects, the **G/L Accounts** and the **Secondary Cost Elements**. Let's first do it for the G/L accounts, the tab you are already on. Select the **Validate** button. The system will run a validation if the merge of the three source accounts can be implemented from a business point of view.
 
    ![](/exercises/ex4/images/Screenshot-20.png)
 
-   Jetzt kommen Fehler!!!
+   After validation, the UI may show warnings and perhaps also errors. But note, the the overal mapping status is still showing **Maintaining Mapping Values**.
 
    ![](/exercises/ex4/images/Screenshot-21.png)
 
-7. Now switch to the **Secondary Cost Elements** tab and again click the **Validation** button. Now all mappings are maintained!
+   This is because the 2nd mapping object, the Secondary Cost Elements, has not yet been validated. This is done in the next step.
 
-   > **❗BE AWARE**: Now the overall status shows **Validated with Errors**. Reason is that one of the GL accounts shows an Error in the mapping validation, which is a showstopper. Warnings are acceptable.
+7. Switch to the **Secondary Cost Elements** tab and again click the **Validate** button. 
 
    ![](/exercises/ex4/images/Screenshot-22.png)
 
-   Dann geht's weiter.
+   After a while the overall status of the mapping changed from **Maintaining...** to **Validated...** and all mappings are maintained.
 
+   > **❗BE AWARE**: Now the overall status shows **Validated with Errors**. The reason is that one of the GL accounts has an error in the mapping validation (we saw that already during the first validation), which is a showstopper and needs to be corrected. Warnings are acceptable.
+
+   ![](/exercises/ex4/images/Screenshot-22b.png)
+
+   We will fix that in the next step.
+
+ 8. Move back to the mapping tab of the **GL Accounts**. To view the detailed results of the validation click on the details button and expand the page. Read through the detailed analysis.
+   
    ![](/exercises/ex4/images/Screenshot-23.png)
 
-   > **ℹ️ NOTE**: To view the detailed results of the validation click on the details button and expand the page. Read through the detailed analysis
-
-8. Move back to the mapping tab of the **GL Accounts**, click the **Edit** button and remove the mapping value for GL account **0000113014** which showed **Error** and replace it with the original source GL account value:
+   Close the details view, click the **Edit** button and remove the mapping value for GL account **0000113014** which showed **Error** and replace it with the original source GL account value:
 
    **0000113014**
 
-   Rerun the validation by clicking again the **Validate** button while staying on the **GL Accounts** tab where you just did the mapping correction.
+   Save the changes and then rerun the validation by clicking again the **Validate** button while staying on the **GL Accounts** tab where you just did the mapping correction.
 
    > **✅ OK**: Now the overall status shows **Validated with Warnings**, which unblocks the next step.
 
-   ![](/exercises/ex4/images/Screenshot-24.png)
-
-   blablabla
-
    ![](/exercises/ex4/images/Screenshot-25.png)
 
-9. *Excursus*: To see a list of all validations you can click on the **Validation Rules** tab in the overview screen, which provides information on which fields are being considered and what the severeness and impact will be.
+9. Congratulations! This concludes this exercise. In the next exercise we will create a variant out of this value mapping.
+
+10. *Excursus*: To see a list of all validations you can click on the **Validation Rules** tab in the overview screen, which provides information on which fields are being considered and what the severeness and impact will be.
 
    ![](/exercises/ex4/images/Screenshot-08.png)
 
