@@ -31,10 +31,7 @@ Follow these steps to complete the exercise:<br>
 5.  Choose **Preparation Log** to display the execution details.<br><br>
     ![](/exercises/ex8/images/Screenshot-1-05.png)<br>
 
-6.  The **Cycle Logs** applications opens. Enter **DTV** into the search field [1] and press **Enter**.<br><br>
-    As you can see, two log entries confirm that the **DTV project** was created and configured successfully [2].<br><br>
-    Through this automation, much of the technical setup is handled by the system, allowing you to focus on configuring only the **DTV reports** relevant for the business data validation.<br><br>
-    ![](/exercises/ex8/images/Screenshot-1-06.png)<br>
+6.  The **Cycle Logs** applications opens. Select **All (1028)** and review the list of tasks that were executed during the preparation phase. Success messages as well as perhaps warnings or error mssages are collected and displayed here. Use this view to analyze any problems that might occur during a preparation phacse.<br><br>
 
 7.  **Congratulations!** You have successfully completed this sub-exercise.<br><br><br>
 
@@ -44,27 +41,24 @@ Follow these steps to complete the exercise:<br>
 
 ### Steps:
 Follow these steps to complete the exercise:<br>
-1.  Within the reference cycle, open the **3. Run Cycles** tab.<br><br>
+1.  Within the reference cycle, open the tab **System Downtime Phases / 3. Transformation** tab.<br><br>
     ![](/exercises/ex8/images/Screenshot-2-01.png)<br>
 
-2.  Choose **Go to Run Cycles**.<br><br>
+2.  Choose **Run Cycles App**.<br><br>
     ![](/exercises/ex8/images/Screenshot-2-02.png)<br>
 
 3.  Enter **FI Document** into the search field [1] and press **Enter**.<br><br>
-    You can see how the data transformation, for example for **financial documents**, was executed during runtime.<br><br>
+    Scroll down a bit and you can see how the data transformation, for example for **financial documents**, was executed during runtime.<br><br>
     ![](/exercises/ex8/images/Screenshot-2-03.png)<br>
 
 4.  Use the **Back** button to return to the cycle overview.<br>
-5.  Open the **4. Postprocess Cycles** tab.<br><br>
-    ![](/exercises/ex8/images/Screenshot-2-04.png)<br>
-
-6.  Choose **Go to Postprocess Cycles**.<br><br>
+5.  Scroll down a bit further and find the final phase of the BTC cycle process: **4. Postprocessing**.<br><br>
+    
+6.  Choose **Postprocess Cycles App**.<br><br>
     In the postprocessing phase, the migrated data is converted to match the release and data structures of the target system using the ABAP upgrade mechanism. This ensures that the transferred data and configuration are fully compatible with SAP S/4HANA.<br><br>
     ![](/exercises/ex8/images/Screenshot-2-05.png)<br>
 
-7.  Enter **DTV** into the search field [1] and press **Enter**.<br><br>
-    The program **BDTS_DTV_TABLE_TRANSFER** is executed in this phase. It transfers the DTV project and related configuration tables from the source system to the target system and automatically extends the setup to include the new SAP S/4HANA environment.<br><br>
-    ![](/exercises/ex8/images/Screenshot-2-06.png)<br>
+7.  Look through the list of postprocessing steps. Several XPRAs, XCLAs, PROGs and SDM jobs are executed during this phase, transforming data based on what was discovered during the very early stages of the BTC project: the shell creation.<br><br>
 
 8.  Use the **Back** button to return to the cycle overview.<br>
 9.  **Congratulations!** You have successfully completed this sub-exercise.<br><br><br> 
