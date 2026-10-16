@@ -22,7 +22,7 @@ Follow these steps to complete the exercise:<br>
 2.  The **Transformation** overview is displayed. Choose **Manage Cycles**.<br><br>
     ![](/exercises/ex8/images/Screenshot-1-02.png)<br>
 
-3.  In the **Manage Cycles** application, enter **CYCLE_REFERENCE_IMPL** in the search field [1] and press **Enter**. Then open the corresponding cycle [2].<br><br>
+3.  In the **Manage Cycles** application, enter **MAD_REF** in the search field [1] and press **Enter**. Then open the corresponding cycle [2].<br><br>
     ![](/exercises/ex8/images/Screenshot-1-03.png)<br>
 
 4.  The **Reference Implementation Cycle** appears. Navigate to **2. Cycle Preparation**.<br><br>
