@@ -3,7 +3,7 @@
 
 ## Steps:
 Follow these steps to complete the exercise:<br>
-1.  Still within the applidation **Manage Analysis File** of the previous exercise, click on the button **Create Digital Blueprint**.<br><br>
+1.  Still within the application **Manage Analysis File** of the previous exercise, click on the button **Create Digital Blueprint**.<br><br>
     ![](/exercises/ex2/images/Screenshot-01.png)<br>
 
 2.  Enter **BLUEPRINT_BT164_XX** (replace *XX* with your seat number, for example **BLUEPRINT_BT164_01**) as the **Name**, and confirm that your UDP **Analysis** created in the first exercise is listed (otherwise select it via the dropdown selection). Afterwards, click on the button **Create** in the lower right hand side of your screen.<br><br>
@@ -12,14 +12,14 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex2/images/Screenshot-03.png)<br>
 4.  To get an overview of its current readiness, choose **Transition Readiness** [1].<br><br>
     In this view, you can review all activities required to prepare your blueprint for data migration. It serves as a checklist that highlights any missing or incomplete steps before you can confirm and activate the blueprint.<br><br>
-    In our case, there is one **Warning**, two **Information** messages, and one **Error** indicating that a **System Scan** is required but missing [2]. Let’s resolve this next.<br><br>
+    There can be messages of type **Warning**, **Information** and **Error**, the latter one indicating that a **System Scan** is required but missing [2]. Let’s resolve this next.<br><br>
     ![](/exercises/ex2/images/Screenshot-04.png)<br>
 5.  Select **Edit**, set **REFERENCE_SYS-SCAN** as the **System Scan**, and then choose **Save**.<br>
 
     > **ℹ️ NOTE**: For time-saving purposes, the system scan has already been prepared and is simply consumed in this exercise. For a system of this size (~250 GB), the scan would normally take about 15–20 minutes to complete.
 
     ![](/exercises/ex2/images/Screenshot-05.png)<br>
-6.  The **System Scan** error has now disappeared, but two new **Warnings** appear — one indicating that the scanned tables must still be scoped, and another referencing SAP S/4HANA Industry Solution–related data. These will be addressed in the next exercise.<br><br>
+6.  The **System Scan** error has now disappeared, but two new messages appear — one indicating that the scanned tables must still be scoped, and another referencing SAP S/4HANA Industry Solution–related data. These will be addressed in the next exercise.<br><br>
     ![](/exercises/ex2/images/Screenshot-06.png)<br>
 7.  To review the **System Scan** in more detail, scroll to the top of the blueprint and choose **Related Apps** [1] > **Manage System Scans** [2].<br><br>
     ![](/exercises/ex2/images/Screenshot-07.png)<br>

@@ -35,7 +35,9 @@ Follow these steps to complete the exercise:<br>
 5.  To review the impact on the data footprint, go to **Related Apps** &gt; **Digital Blueprint Overview**.<br><br>
     ![](/exercises/ex3/images/Screenshot-1-05.png)<br>
 6.  The **Digital Blueprint Overview** app opens, preselected with your blueprint.<br><br>
-    This view provides detailed charts and dashboards to visualize technical and business information. The **Transformation Objects Summary** chart, for example, shows the ratio between in-scope transformation objects and out-of-scope data. You can see that roughly 30% of the data is now excluded from scope.<br><br>
+    This view provides detailed charts and dashboards to visualize technical and business information. The **Transformation Objects Summary** chart, for example, shows the ratio between in-scope transformation objects and out-of-scope data. You can see that roughly 30% of the data is now excluded from scope.
+    
+    Note, that in your case the value of data reduction may be different, the image serves as an orientation only of what you may expect.<br><br>
     ![](/exercises/ex3/images/Screenshot-1-06.png)<br>
 7.  Use the **Back** button in the Launchpad to return to your blueprint.<br>
 8.  The **All Company Codes in Scope** warning has disappeared, confirming that the scoping adjustment was successful.<br><br>
@@ -99,7 +101,7 @@ Follow these steps to complete the exercise:<br>
 1.  Within your blueprint, open the **Transition Readiness** tab [1] and choose **Select Scanned Tables** [2].<br><br>
     ![](/exercises/ex3/images/Screenshot-4-01.png)<br>
 
-2.  Scroll down and select the tables **ZMSKA** or **ZMSSA** from the list [1]. Then choose **Mass Edit** [2].<br><br>
+2.  Scroll down and select the tables **ZMSKA** or **ZMSSA** from the list [1]. Alternatively to scrolling, you can click on the **Table Name** header and sort the column alphabetically fro Z to A, to bring the Z-Tables to the top. Then choose **Mass Edit** [2].<br><br>
     ![](/exercises/ex3/images/Screenshot-4-02.png)<br>
 
 3.  These tables are **legacy custom tables** whose functionality has been replaced in **SAP S/4HANA**. Since they are no longer required, you will remove them from scope.<br><br>

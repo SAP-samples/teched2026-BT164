@@ -25,18 +25,17 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex7/images/Screenshot-02b.png)<br>
 
 4.  After a few seconds, the **Cycle** is successfully created and appears in status **New**.<br><br>
-    It serves as the **execution layer** of your transformation model version, connecting the source and target systems. Each cycle follows **four structured phases** that guide the end-to-end data transformation.<br><br>
+    It serves as the **execution layer** of your transformation model version, connecting the source and target systems. Each cycle follows **four structured phases**, grouped into two phases during **System Uptime** and two phases during **System Downtime**, that guide the end-to-end data transformation.<br><br>
     ![](/exercises/ex7/images/Screenshot-03.png)<br>
 
-5.  Next, begin with the **first phase** of the cycle — **Prevalidation**. Choose **1. Cycle Prevalidation** to open the corresponding section.<br><br>
-    ![](/exercises/ex7/images/Screenshot-04.png)<br>
+5.  Next, begin with the **first phase** of the cycle — **Prevalidation**. Choose **System Uptime Phases --> 1. Prevalidation** to open the corresponding section.<br><br>
 
 6.  The **Cycle Prevalidation** section opens.<br><br>
     The **Prevalidation** phase ensures that your cycle is technically ready to proceed with data preparation and transformation. During this phase, additional **data transformation–specific checks** are performed to verify system consistency and readiness.<br><br>
     These automated validations analyze both the **source** and **target systems**, identifying potential configuration or connectivity issues early in the process. You can monitor the current **Prevalidation Status** [1] and review detailed results in the **Prevalidation Logs** [2], which summarize all executed checks and their outcomes.<br><br>
     ![](/exercises/ex7/images/Screenshot-05.png)<br>
     
-6.  Choose **Run Prevalidation** to start the analysis.<br><br>
+6.  Choose **Start Prevalidation** to start the analysis.<br><br>
     ![](/exercises/ex7/images/Screenshot-06.png)<br>
 
 7.  The prevalidation process is initiated, and system checks begin.<br><br>

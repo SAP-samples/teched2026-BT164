@@ -84,7 +84,7 @@ Follow these steps to complete the exercise:
    
    ![](/exercises/ex4/images/Screenshot-23.png)
 
-   Close the details view, click the **Edit** button and remove the mapping value for GL account **0000113014** which showed **Error** and replace it with the original source GL account value:
+   Close the details view. If you're not yet in edit mode, click the **Edit** button and remove the mapping value for GL account **0000113014** which showed **Error** and replace it with the original source GL account value:
 
    **0000113014**
 

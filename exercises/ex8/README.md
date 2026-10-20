@@ -25,7 +25,7 @@ Follow these steps to complete the exercise:<br>
 3.  In the **Manage Cycles** application, enter **MAD_REF** in the search field [1] and press **Enter**. Then open the corresponding cycle [2].<br><br>
     ![](/exercises/ex8/images/Screenshot-1-03.png)<br>
 
-4.  The **Reference Implementation Cycle** appears. Navigate to **2. Cycle Preparation**.<br><br>
+4.  The **Reference Implementation Cycle** appears. Navigate to **System Uptime Phases --> 2. Preparation**.<br><br>
     ![](/exercises/ex8/images/Screenshot-1-04.png)<br>
 
 5.  Choose **Preparation Log** to display the execution details.<br><br>

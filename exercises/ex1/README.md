@@ -1,7 +1,7 @@
 # Exercise 1 - Build the Foundation: Upload UDP File
 <p align="justify">In this exercise, you will utilize the key analysis file from the source SAP ERP 6.0 system – the <b>Usage and Data Profiling</b> (UDP) file – and upload it to SAP Cloud ALM. This file serves as the technical and functional input for the <b>Digital Blueprint</b> application.</p><br>
 
-Normally, in a real project-like setup, you would now log on to the SAP ERP 6.0 source system, run an APAB report to generate this analysis file and then first download this file to you local PC and in the next step upload it to Cloud ALM. However, due to resource and time constraints, we will skip these steps in this hands-on session. Instead, the file is provided for you within this repository for you to download directly.<br>
+Normally, in a real project-like setup, you would now log on to the SAP ERP 6.0 source system, run an APAB report to generate this analysis file and then first download this file to you local PC and in the next step upload it to Cloud ALM. However, due to resource and time constraints, we will skip these steps in this hands-on session. Instead, the file is provided for you to download directly from within this repository.<br>
 
 If you wish to follow the full procedure at your own pace on your own system landscape you can find the detailed instructions at the end of this exercise.<br>
 
@@ -41,6 +41,8 @@ Follow these steps to complete the exercise:<br>
 Continue to - [Exercise 2 - Initialize Project: Create Digital Blueprint](../ex2/README.md)
 
 <br><br><br>
+
+## Add-On Exercise: Create the UDP file yourself
 
 In case you want to perform the activity on the SAP ERP 6.0 source system, please find here the steps that would have to be performed to obtain the UDP analysis file directly yourself from the ABAP system.
 

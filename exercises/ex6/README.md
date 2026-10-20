@@ -22,9 +22,9 @@ Follow these steps to complete the exercise:<br>
 5.  Finally, choose **Create**.<br><br>
 
 
-6.  It will take a few moments until the **Transformation Model** is successfully created.<br>
+6.  It will take a few moments until the screen refreshes and the **Transformation Model** is created.<br>
 
-    > **ℹ️ NOTE**:  The **Transformation Model Readiness** scan is running in the background and does not require any action at this stage.
+    > **ℹ️ NOTE**:  Several scans designed to validate the **Transformation Model Readiness** are running in the background and do not require any action at this stage. These scans may run for about 5 to 10 minutes, depending on system size and complexity.
 
     In this view, you can see that the transformation model combines all **transformation objects**, **relations**, **filters**, and **rules** into one consistent technical definition for your transformation initiative.<br><br>
     In addition to the scoped objects defined in your **Digital Blueprint**, extra elements are automatically added to ensure consistency — including semantically related or logically grouped objects, baseline components required for technical stability, and custom objects identified through the **System Scan**.<br><br>
@@ -49,10 +49,9 @@ Follow these steps to complete the exercise:<br>
     ![](/exercises/ex6/images/Screenshot-08.png)<br>
 
 12. Use the **Back** button to return to the transformation model overview.<br>
-13. Check that the **Source System Scan** is successful. If it is still **In Progress**, use the **Refresh** button.<br>
 
-    > **ℹ️ NOTE**: The **Source System Scan** may take up to 5–10 minutes to complete. If you prefer not to wait, continue with **Step 14**.
-    
+13. Check whether meanwhile the **Source System Scan** is successful. If it is still **In Progress**, you may use the browser's **Refresh** button to see if it can update the status already. In any case - just take this as a note and continue with the exercise as the **Source System Scan** may take up to 10 minutes to complete.<br>
+
     During the Source System Scan, a **Connectivity Check** is performed first, followed by an analysis of **customer-specific change documents**. If it detects change documents whose **object classes are not included in the SAP Business Transformation Center content**, corresponding **custom transformation objects** are generated and may require review.<br><br>
     These checks run sequentially in the background and ensure that all relevant elements are identified and considered before the actual data migration execution.<br><br>
     ![](/exercises/ex6/images/Screenshot-09.png)<br>
