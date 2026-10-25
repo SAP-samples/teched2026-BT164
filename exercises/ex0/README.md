@@ -54,4 +54,4 @@
 
 <p align="justify">You have now reviewed the overall transformation scenario, explored the CONSAREA system landscape, and understood the key preparation steps that enable the upcoming exercises. The environment is fully set up and ready for the next phase of your journey.</p>
 
-Continue to - [Exercise 1 - Build the Foundation: Upload UDP & MRC File](../ex1/README.md)
+Continue to - [Exercise 1 - Build the Foundation: Upload UDP File](../ex1/README.md)

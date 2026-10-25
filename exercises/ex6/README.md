@@ -77,13 +77,13 @@ Follow these steps to complete the exercise:<br>
     It represents a **snapshot** of your **transformation model** and serves as the **technical basis** for executing the **data transformation**.<br><br>
     It contains the same **objects**, **relations**, **filters**, and **rules** as defined in the model, ensuring that each transformation run is performed **consistently** and can be **traced back** to its exact configuration.<br><br>
     ![](/exercises/ex6/images/Screenshot-14.png)<br><br>
-    This concludes the exercise and you can continue with the next ecercise.<br><br>
+    This concludes the exercise and you can continue with the next ecercise. Scroll down to the end of this page and click on the link leading to exercicse 7. <br><br>
 
 20. This is an alternative route to complete the exercise in case the model    creation took too long. From the menu at the top of the screen, click on the arrow to open the dropdown menu and select "Manage Transformation Models":<br><br>
    ![](/exercises/ex6/images/Screenshot-20.png)<br><br>
-   Then, in the search field, enter **REFERENCE_TRAFO**, click on the magnifying lense, and select **REFERENCE_TRAFO-Model** from the list below: <br><br>
+   Then, in the search field, enter **REFERENCE_TRAFO**, click on the magnifying lense, and select **REFERENCE_TRAFO** from the list below: <br><br>
    ![](/exercises/ex6/images/Screenshot-21.png)<br><br>
-   The Transformation Model application opens. Open the tab **Transformation Model Versions** and select the verion titled **REFERENCE_TRAFO-MODEL-VERSION**.<br><br>
+   The Transformation Model application opens. Open the tab **Transformation Model Versions** and select the verion titled **REFERENCE_TRAFO_VERSION**.<br><br>
    ![](/exercises/ex6/images/Screenshot-22.png)<br><br>
    You have now caught up with the process flow in this exercise and can contiune to the next exercise, creating the cycle from the model version.<br><br>
 

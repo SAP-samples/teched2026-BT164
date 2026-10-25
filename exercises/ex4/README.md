@@ -104,4 +104,4 @@ Follow these steps to complete the exercise:
 
 <p align="justify">You have now successfully created the Chart of Accounts Value Mappings. In the next exercise you will create an immutable version of this definition to be used in the transformation model lateron.</p>
 
-Continue to - [Exercise 5 - Chart of Accounts Mapping: Manage Value Mappings](../ex5/README.md)
+Continue to - [Exercise 5 - Chart of Accounts Mapping: Value Mapping Versions](../ex5/README.md)
